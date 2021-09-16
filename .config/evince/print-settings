@@ -1,0 +1,34 @@
+[Print Settings]
+cups-job-priority=80
+cups-number-up=1
+evince-print-setting-page-size=false
+cover-before=none
+evince-print-setting-page-scale=1
+print-at-time=
+cover-after=none
+print-at=now
+printer=Brother_HL-1210W_series
+evince-print-setting-page-autorotate=true
+
+lpr-commandline=lpr
+
+cups-TonerSaveMode=ON
+resolution-x=2400
+cups-Resolution=2400x600dpi
+cups-BrMediaType=PLAIN
+resolution-y=600
+resolution=2400
+cups-job-sheets=none,none
+
+output-file-format=pdf
+
+[Page Setup]
+PPDName=A4
+DisplayName=A4
+Width=210
+Height=297
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait

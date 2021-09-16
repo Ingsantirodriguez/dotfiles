@@ -1,0 +1,449 @@
+[
+    {
+        "Job": {
+            "Audio": {
+                "AudioList": [
+                    {
+                        "Bitrate": 320,
+                        "CompressionLevel": -1.0,
+                        "DRC": 0.0,
+                        "DitherMethod": "auto",
+                        "Encoder": "vorbis",
+                        "Gain": 0.0,
+                        "Mixdown": "stereo",
+                        "Name": "simple_aac_recording",
+                        "NormalizeMixLevel": false,
+                        "PresetEncoder": "av_aac",
+                        "Quality": -3.0,
+                        "Samplerate": 48000,
+                        "Track": 0
+                    }
+                ],
+                "CopyMask": [
+                    "copy:aac"
+                ],
+                "FallbackEncoder": "av_aac"
+            },
+            "Destination": {
+                "AlignAVStart": false,
+                "ChapterList": [
+                    {
+                        "Duration": {
+                            "Hours": 0,
+                            "Minutes": 0,
+                            "Seconds": 15,
+                            "Ticks": 1413000
+                        },
+                        "Name": ""
+                    }
+                ],
+                "ChapterMarkers": false,
+                "File": "/home/srodriguez/Videos/2021-05-12 16-28-22.webm",
+                "InlineParameterSets": false,
+                "Mp4Options": {
+                    "IpodAtom": false,
+                    "Mp4Optimize": true
+                },
+                "Mux": "av_webm"
+            },
+            "Filters": {
+                "FilterList": [
+                    {
+                        "ID": 3,
+                        "Settings": {
+                            "block-height": "16",
+                            "block-thresh": "40",
+                            "block-width": "16",
+                            "filter-mode": "2",
+                            "mode": "3",
+                            "motion-thresh": "1",
+                            "spatial-metric": "2",
+                            "spatial-thresh": "1"
+                        }
+                    },
+                    {
+                        "ID": 4,
+                        "Settings": {
+                            "mode": "7"
+                        }
+                    },
+                    {
+                        "ID": 6,
+                        "Settings": {
+                            "mode": 2,
+                            "rate": "27000000/900000"
+                        }
+                    },
+                    {
+                        "ID": 12,
+                        "Settings": {
+                            "crop-bottom": 44,
+                            "crop-left": 0,
+                            "crop-right": 0,
+                            "crop-top": 30,
+                            "height": 406,
+                            "width": 852
+                        }
+                    }
+                ]
+            },
+            "Metadata": {
+                "Name": "2021-05-12 16-28-22"
+            },
+            "PAR": {
+                "Den": 1,
+                "Num": 1
+            },
+            "SequenceID": 0,
+            "Source": {
+                "Angle": 0,
+                "Path": "/home/srodriguez/2021-05-12 16-28-22.mkv",
+                "Range": {
+                    "End": 1,
+                    "Start": 1,
+                    "Type": "chapter"
+                },
+                "Title": 1
+            },
+            "Subtitle": {
+                "Search": {
+                    "Burn": true,
+                    "Default": false,
+                    "Enable": false,
+                    "Forced": false
+                },
+                "SubtitleList": []
+            },
+            "Video": {
+                "ColorFormat": 0,
+                "ColorMatrix": 1,
+                "ColorPrimaries": 1,
+                "ColorRange": 1,
+                "ColorTransfer": 1,
+                "Encoder": "VP8",
+                "Level": "3.2",
+                "Options": "keyint=30:min-keyint=15:ref=1:bframes=2:b-pyramid=none",
+                "Preset": "medium",
+                "Profile": "high",
+                "QSV": {
+                    "AsyncDepth": 4,
+                    "Decode": false
+                },
+                "Quality": 22.0,
+                "Tune": "",
+                "Turbo": false,
+                "TwoPass": false
+            }
+        },
+        "Title": {
+            "AngleCount": 1,
+            "AudioList": [
+                {
+                    "Attributes": {
+                        "AltCommentary": false,
+                        "Commentary": false,
+                        "Default": true,
+                        "Normal": false,
+                        "Secondary": false,
+                        "VisuallyImpaired": false
+                    },
+                    "BitRate": 1,
+                    "ChannelCount": 2,
+                    "ChannelLayout": 3,
+                    "ChannelLayoutName": "stereo",
+                    "Codec": 65536,
+                    "CodecName": "aac",
+                    "CodecParam": 86018,
+                    "Description": "Unknown (AAC LC) (2.0 ch)",
+                    "LFECount": 0,
+                    "Language": "Unknown",
+                    "LanguageCode": "und",
+                    "Name": "simple_aac_recording",
+                    "SampleRate": 48000
+                }
+            ],
+            "ChapterList": [
+                {
+                    "Duration": {
+                        "Hours": 0,
+                        "Minutes": 0,
+                        "Seconds": 15,
+                        "Ticks": 1413000
+                    },
+                    "Name": ""
+                }
+            ],
+            "Color": {
+                "Format": 0,
+                "Matrix": 1,
+                "Primary": 1,
+                "Range": 1,
+                "Transfer": 1
+            },
+            "Container": "matroska,webm",
+            "Crop": [
+                30,
+                44,
+                0,
+                0
+            ],
+            "Duration": {
+                "Hours": 0,
+                "Minutes": 0,
+                "Seconds": 15,
+                "Ticks": 1413000
+            },
+            "FrameRate": {
+                "Den": 900000,
+                "Num": 27000000
+            },
+            "Geometry": {
+                "Height": 480,
+                "PAR": {
+                    "Den": 1,
+                    "Num": 1
+                },
+                "Width": 852
+            },
+            "Index": 1,
+            "InterlaceDetected": false,
+            "Metadata": {},
+            "Name": "2021-05-12 16-28-22",
+            "Path": "/home/srodriguez/2021-05-12 16-28-22.mkv",
+            "Playlist": -1,
+            "SubtitleList": [],
+            "Type": 3,
+            "VideoCodec": "h264"
+        },
+        "uiSettings": {
+            "ActivityFilename": "/home/srodriguez/.config/ghb/EncodeLogs/2021-05-12 16-28-22 2021-05-12 16-34-16.log",
+            "AlignAVStart": false,
+            "AudioAllowAACPass": true,
+            "AudioAllowAC3Pass": false,
+            "AudioAllowDTSHDPass": false,
+            "AudioAllowDTSPass": false,
+            "AudioAllowEAC3Pass": false,
+            "AudioAllowFLACPass": false,
+            "AudioAllowMP3Pass": false,
+            "AudioAllowTRUEHDPass": false,
+            "AudioBitrate": "192",
+            "AudioCopyMask": [
+                "copy:aac"
+            ],
+            "AudioEncoder": "copy:ac3",
+            "AudioEncoderFallback": "av_aac",
+            "AudioLanguageList": [],
+            "AudioList": [
+                {
+                    "AudioBitrate": 320,
+                    "AudioCompressionLevel": -1.0,
+                    "AudioDitherMethod": "auto",
+                    "AudioEncoder": "av_aac",
+                    "AudioMixdown": "stereo",
+                    "AudioNormalizeMixLevel": false,
+                    "AudioSamplerate": "48",
+                    "AudioTrackDRCSlider": 0.0,
+                    "AudioTrackGainSlider": 0.0,
+                    "AudioTrackQuality": 1.0,
+                    "AudioTrackQualityEnable": false
+                }
+            ],
+            "AudioMixdown": "dpl2",
+            "AudioSamplerate": "auto",
+            "AudioSecondaryEncoderMode": true,
+            "AudioTrack": "0",
+            "AudioTrackDRCSlider": 0.90000000000000002,
+            "AudioTrackDRCValue": "Off",
+            "AudioTrackGainSlider": 0.0,
+            "AudioTrackName": "",
+            "AudioTrackQuality": -1.0,
+            "AudioTrackQualityEnable": false,
+            "AudioTrackQualityValue": "-3",
+            "AudioTrackQualityX": -3.0,
+            "AudioTrackSelectionBehavior": "first",
+            "ChapterMarkers": true,
+            "ChildrenArray": [],
+            "Default": false,
+            "FileFormat": "av_webm",
+            "Folder": false,
+            "FolderOpen": false,
+            "ImportFile": null,
+            "ImportLanguage": "und",
+            "ImportOffset": 0.0,
+            "InlineParameterSets": false,
+            "MetaAlbumArtist": "",
+            "MetaArtist": "",
+            "MetaComment": "",
+            "MetaDescription": "",
+            "MetaGenre": "",
+            "MetaLongDescription": "",
+            "MetaName": "2021-05-12 16-28-22",
+            "MetaReleaseDate": "",
+            "Mp4HttpOptimize": true,
+            "Mp4iPodCompatible": false,
+            "PictureAutoCrop": true,
+            "PictureBottomCrop": 44.0,
+            "PictureChromaSmoothCustom": "",
+            "PictureChromaSmoothPreset": "off",
+            "PictureChromaSmoothTune": "none",
+            "PictureCombDetectCustom": "",
+            "PictureCombDetectPreset": "default",
+            "PictureDARWidth": 0,
+            "PictureDeblockCustom": "strength=strong:thresh=20:blocksize=8",
+            "PictureDeblockPreset": "off",
+            "PictureDeblockTune": "medium",
+            "PictureDeinterlaceCustom": "",
+            "PictureDeinterlaceDecomb": false,
+            "PictureDeinterlaceFilter": "decomb",
+            "PictureDeinterlacePreset": "default",
+            "PictureDenoiseCustom": "",
+            "PictureDenoiseFilter": "off",
+            "PictureDenoisePreset": "",
+            "PictureDenoiseTune": "none",
+            "PictureDetelecine": "off",
+            "PictureDetelecineCustom": "",
+            "PictureDisplayHeight": 406.0,
+            "PictureDisplayWidth": 852.0,
+            "PictureForceHeight": 0,
+            "PictureForceWidth": 0,
+            "PictureHeight": 720.0,
+            "PictureHeightEnable": true,
+            "PictureItuPAR": false,
+            "PictureKeepRatio": true,
+            "PictureLeftCrop": 0.0,
+            "PictureLooseCrop": false,
+            "PictureModulus": "2",
+            "PicturePAR": "off",
+            "PicturePARHeight": 1.0,
+            "PicturePARWidth": 1.0,
+            "PictureRightCrop": 0.0,
+            "PictureRotate": "disable=1",
+            "PictureSharpenCustom": "",
+            "PictureSharpenFilter": "off",
+            "PictureSharpenPreset": "",
+            "PictureSharpenTune": "",
+            "PictureTopCrop": 30.0,
+            "PictureWidth": 1280.0,
+            "PictureWidthEnable": true,
+            "Preferences": {
+                "ActivityFontSize": 8.0,
+                "AddCC": false,
+                "AutoScan": false,
+                "DiskFreeCheck": true,
+                "DiskFreeLimit": 2000.0,
+                "EncodeLogLocation": false,
+                "ExportDirectory": "/home/srodriguez/Desktop",
+                "LogLongevity": "immortal",
+                "LoggingLevel": "1",
+                "MinTitleDuration": 10.0,
+                "PreferredLanguage": "und",
+                "RemoveFinishedJobs": false,
+                "SrtDir": "/home/srodriguez/Videos",
+                "SyncTitleSettings": true,
+                "UseM4v": true,
+                "VideoQualityGranularity": "1",
+                "WhenComplete": "notify",
+                "allow_tweaks": false,
+                "auto_name": true,
+                "auto_name_template": "{source}",
+                "check_updates": "weekly",
+                "default_source": "/home/srodriguez/2021-05-12 16-28-22.mkv",
+                "destination_dir": "/home/srodriguez/Videos",
+                "hbfd": false,
+                "hbfd_feature": false,
+                "last_update_check": 0,
+                "live_duration": 15.0,
+                "preset_window_height": 1,
+                "preset_window_width": 1,
+                "preview_count": 10.0,
+                "preview_show_crop": false,
+                "preview_x": 969,
+                "preview_y": 42,
+                "reduce_hd_preview": true,
+                "update_skip_version": 0,
+                "use_dvdnav": true,
+                "version": "0.1",
+                "window_height": 1022,
+                "window_width": 1888
+            },
+            "PreferredLanguage": "und",
+            "PresetCategory": "new",
+            "PresetDescription": "H.264 video (up to 720p30) and high bit rate AAC stereo audio in an MP4 container. Compatible with most video hosting services, such as Vimeo and YouTube.",
+            "PresetFullName": "/Web/Vimeo YouTube 720p30",
+            "PresetName": "Vimeo YouTube 720p30",
+            "PtoPType": "chapter",
+            "QueueWhenComplete": "notify",
+            "SrtCodeset": "ISO-8859-1",
+            "SubtitleAddCC": false,
+            "SubtitleAddForeignAudioSearch": true,
+            "SubtitleAddForeignAudioSubtitle": false,
+            "SubtitleBurnBDSub": true,
+            "SubtitleBurnBehavior": "foreign",
+            "SubtitleBurnDVDSub": true,
+            "SubtitleLanguageList": [],
+            "SubtitleTrackSelectionBehavior": "none",
+            "Type": 0,
+            "UsesPictureFilters": true,
+            "UsesPictureSettings": 1,
+            "VideoAvgBitrate": 2500.0,
+            "VideoColorMatrixCodeOverride": 0,
+            "VideoEncoder": "VP8",
+            "VideoFramerate": "30",
+            "VideoFramerateCFR": false,
+            "VideoFramerateMode": "pfr",
+            "VideoFrameratePFR": true,
+            "VideoFramerateVFR": false,
+            "VideoGrayScale": false,
+            "VideoLevel": "3.2",
+            "VideoOptionExtra": "keyint=30:min-keyint=15:ref=1:bframes=2:b-pyramid=none",
+            "VideoPreset": "medium",
+            "VideoPresetSlider": 5,
+            "VideoProfile": "high",
+            "VideoQSVAsyncDepth": 4,
+            "VideoQSVDecode": false,
+            "VideoQualitySlider": 22,
+            "VideoQualityType": 2,
+            "VideoScaler": "swscale",
+            "VideoTune": "none",
+            "VideoTurboTwoPass": false,
+            "VideoTwoPass": true,
+            "WhenComplete": "notify",
+            "activity_location": "/home/srodriguez/.config/ghb/Activity.log.723383",
+            "angle": 1.0,
+            "angle_count": 1,
+            "autoscale": false,
+            "chapter_list": [],
+            "dest_dir": "/home/srodriguez/Videos",
+            "dest_file": "2021-05-12 16-28-22.webm",
+            "destination": "/home/srodriguez/Videos/2021-05-12 16-28-22.webm",
+            "display_aspect": "2,10:1",
+            "end_point": 1.0,
+            "job_finish_time": 1620848056,
+            "job_pause_time_ms": 0,
+            "job_start_time": 1620848056,
+            "job_status": 0,
+            "job_unique_id": 0,
+            "preset_modified": true,
+            "preset_reload": false,
+            "preview_frame": 2,
+            "scale_height": 406.0,
+            "scale_width": 852.0,
+            "single_title": 1.0,
+            "source": "/home/srodriguez/2021-05-12 16-28-22.mkv",
+            "source_height": 480,
+            "source_label": "2021-05-12 16-28-22",
+            "source_width": 852,
+            "start_frame": -1,
+            "start_point": 1.0,
+            "title": "1",
+            "title_selected": false,
+            "volume": "2021-05-12 16-28-22",
+            "vquality_type_bitrate": false,
+            "vquality_type_constant": true,
+            "x264FastDecode": false,
+            "x264Option": "",
+            "x264UseAdvancedOptions": false,
+            "x264ZeroLatency": false
+        }
+    }
+]

@@ -1,0 +1,8 @@
+# GIMP action-history
+
+(history-item "file-open" 4)
+(history-item "file-save" 1)
+(history-item "tools-align" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

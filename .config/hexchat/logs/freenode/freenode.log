@@ -1,0 +1,88 @@
+**** BEGIN LOGGING AT Sat May 29 17:14:30 2021
+
+may 29 17:14:30 *	*** Looking up your hostname...
+may 29 17:14:30 *	*** Checking Ident
+may 29 17:14:30 *	*** Couldn't look up your hostname
+may 29 17:14:38 *	*** No Ident response
+may 29 17:14:38 *	Capabilities supported: account-notify away-notify cap-notify chghost extended-join identify-msg multi-prefix sasl tls
+may 29 17:14:38 *	Capabilities requested: account-notify away-notify cap-notify chghost extended-join identify-msg multi-prefix 
+may 29 17:14:38 *	Capabilities acknowledged: account-notify away-notify cap-notify chghost extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Sat May 29 17:14:38 2021
+
+**** BEGIN LOGGING AT Sat May 29 17:14:38 2021
+
+may 29 17:14:38 *	Welcome to the freenode Internet Relay Chat Network manjaroi3
+may 29 17:14:38 *	Your host is card.freenode.net[38.229.70.22/6667], running version ircd-seven-1.1.9
+may 29 17:14:38 *	This server was created Sun Jul 12 2020 at 20:44:33 UTC
+may 29 17:14:38 *	card.freenode.net ircd-seven-1.1.9 DOQRSZaghilopsuwz CFILMPQSbcefgijklmnopqrstuvz bkloveqjfI
+may 29 17:14:38 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstuz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+may 29 17:14:38 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+may 29 17:14:38 *	MONITOR=100 WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+may 29 17:14:38 *	There are 71 users and 62215 invisible on 42 servers
+may 29 17:14:38 *	20 :IRC Operators online
+may 29 17:14:38 *	12 :unknown connection(s)
+may 29 17:14:38 *	37507 :channels formed
+may 29 17:14:38 *	I have 4744 clients and 1 servers
+may 29 17:14:38 *	4744 6593 :Current local users 4744, max 6593
+may 29 17:14:38 *	62286 84899 :Current global users 62286, max 84899
+may 29 17:14:38 *	Highest connection count: 6594 (6593 clients) (516656 connections received)
+may 29 17:14:38 *	- card.freenode.net Message of the Day - 
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+may 29 17:14:38 *	- Team Cymru (http://www.team-cymru.org).
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+may 29 17:14:38 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+may 29 17:14:38 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+may 29 17:14:38 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+may 29 17:14:38 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+may 29 17:14:38 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- Welcome to freenode - supporting the free and open source
+may 29 17:14:38 *	- software communities since 1998.
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- By connecting to freenode you indicate that you have read and
+may 29 17:14:38 *	- accept our policies and guidelines as set out on https://freenode.net
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- In the event that you observe behaviour that contravenes our policies,
+may 29 17:14:38 *	- please notify a volunteer staff member via private message, or send us an
+may 29 17:14:38 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+may 29 17:14:38 *	- situation within a reasonable period of time, and we may request further
+may 29 17:14:38 *	- information or, as appropriate, involve other parties such as channel operators 
+may 29 17:14:38 *	- Group Contacts representing an on-topic group.
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- freenode runs an open proxy scanner.
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- If you are looking for assistance, you may be able to find a list of 
+may 29 17:14:38 *	- volunteer staff on '/stats p' (shows only on-call staff) or by joining 
+may 29 17:14:38 *	- #freenode and using the '/who freenode/staff/*' command. You may message
+may 29 17:14:38 *	- any of us at any time. Please note that freenode predominantly provides 
+may 29 17:14:38 *	- assistance via private message, and while we have a network channel the 
+may 29 17:14:38 *	- primary venue for support requests is via private message to a member 
+may 29 17:14:38 *	- of the volunteer staff team.
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- From time to time, volunteer staff may send server-wide notices relating to
+may 29 17:14:38 *	- the project, or the communities that we host. The majority of such notices
+may 29 17:14:38 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+may 29 17:14:38 *	- do not miss them. Important messages relating to the freenode project, including
+may 29 17:14:38 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+may 29 17:14:38 *	- global notices.
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- Representing an on-topic project? Don't forget to register, more information
+may 29 17:14:38 *	- can be found on the https://freenode.net website under "Group Registration".
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- Thank you also to our server sponsors for the sustained support in keeping the
+may 29 17:14:38 *	- network going for close to two decades.
+may 29 17:14:38 *	-  
+may 29 17:14:38 *	- Thank you for using freenode!
+may 29 17:14:38 *	End of /MOTD command.
+may 29 17:14:38 *	manjaroi3 sets mode +R on manjaroi3
+may 29 17:14:38 *	manjaroi3 sets mode +i on manjaroi3
+may 29 17:14:38 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+may 29 17:14:44 *	#manjaro #manjaro-unregistered :Forwarding to another channel
+may 29 17:14:56 Checksum plugin unloaded
+may 29 17:14:56 Perl interface unloaded
+may 29 17:14:56 Sysinfo plugin unloaded
+**** ENDING LOGGING AT Sat May 29 17:14:56 2021
+

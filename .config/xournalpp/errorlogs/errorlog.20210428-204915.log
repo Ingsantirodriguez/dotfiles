@@ -1,0 +1,53 @@
+Date: Wed Apr 28 20:49:15 2021
+Error: signal 11
+[bt]: (0) /usr/bin/xournalpp(+0x1d95d2) [0x5639ad2835d2]
+[bt]: (1) /usr/lib/libc.so.6(+0x3cf80) [0x7fde021a7f80]
+[bt]: (2) /usr/bin/xournalpp(_ZN7XojPage11unreferenceEv+0x96) [0x5639ad25f5c6]
+[bt]: (3) /usr/bin/xournalpp(_ZN7PageRefaSEP7XojPage+0x1b) [0x5639ad25834b]
+[bt]: (4) /usr/bin/xournalpp(_ZN23SidebarPreviewBaseEntryD1Ev+0xb1) [0x5639ad228831]
+[bt]: (5) /usr/bin/xournalpp(_ZN23SidebarPreviewPageEntryD0Ev+0x9) [0x5639ad22af99]
+[bt]: (6) /usr/bin/xournalpp(_ZN18SidebarPreviewBaseD1Ev+0xfe) [0x5639ad2276ce]
+[bt]: (7) /usr/bin/xournalpp(_ZN19SidebarPreviewPagesD0Ev+0x9) [0x5639ad22b8e9]
+[bt]: (8) /usr/bin/xournalpp(_ZN7SidebarD1Ev+0xbf) [0x5639ad224c7f]
+[bt]: (9) /usr/bin/xournalpp(_ZN7SidebarD0Ev+0x9) [0x5639ad224dc9]
+[bt]: (10) /usr/bin/xournalpp(_ZN7ControlD1Ev+0x212) [0x5639ad14a0a2]
+[bt]: (11) /usr/bin/xournalpp(_ZN7ControlD0Ev+0x9) [0x5639ad14a3c9]
+[bt]: (12) /usr/bin/xournalpp(_ZN11XournalMain3runEiPPc+0xc03) [0x5639ad16faf3]
+[bt]: (13) /usr/bin/xournalpp(main+0x37) [0x5639ad143177]
+[bt]: (14) /usr/lib/libc.so.6(__libc_start_main+0xd5) [0x7fde02192b25]
+[bt]: (15) /usr/bin/xournalpp(_start+0x2e) [0x5639ad14370e]
+
+
+Try to get a better stracktrace...
+[bt] #1 /usr/bin/xournalpp(+0x1d987b) [0x5639ad28387b]
+??:0
+[bt] #2 /usr/lib/libc.so.6(+0x3cf80) [0x7fde021a7f80]
+??:0
+[bt] #3 /usr/bin/xournalpp(_ZN7XojPage11unreferenceEv+0x96) [0x5639ad25f5c6]
+??:0
+[bt] #4 /usr/bin/xournalpp(_ZN7PageRefaSEP7XojPage+0x1b) [0x5639ad25834b]
+??:0
+[bt] #5 /usr/bin/xournalpp(_ZN23SidebarPreviewBaseEntryD1Ev+0xb1) [0x5639ad228831]
+??:0
+[bt] #6 /usr/bin/xournalpp(_ZN23SidebarPreviewPageEntryD0Ev+0x9) [0x5639ad22af99]
+??:0
+[bt] #7 /usr/bin/xournalpp(_ZN18SidebarPreviewBaseD1Ev+0xfe) [0x5639ad2276ce]
+??:0
+[bt] #8 /usr/bin/xournalpp(_ZN19SidebarPreviewPagesD0Ev+0x9) [0x5639ad22b8e9]
+??:0
+[bt] #9 /usr/bin/xournalpp(_ZN7SidebarD1Ev+0xbf) [0x5639ad224c7f]
+??:0
+[bt] #10 /usr/bin/xournalpp(_ZN7SidebarD0Ev+0x9) [0x5639ad224dc9]
+??:0
+[bt] #11 /usr/bin/xournalpp(_ZN7ControlD1Ev+0x212) [0x5639ad14a0a2]
+??:0
+[bt] #12 /usr/bin/xournalpp(_ZN7ControlD0Ev+0x9) [0x5639ad14a3c9]
+??:0
+[bt] #13 /usr/bin/xournalpp(_ZN11XournalMain3runEiPPc+0xc03) [0x5639ad16faf3]
+??:0
+[bt] #14 /usr/bin/xournalpp(main+0x37) [0x5639ad143177]
+??:0
+[bt] #15 /usr/lib/libc.so.6(__libc_start_main+0xd5) [0x7fde02192b25]
+??:0
+[bt] #16 /usr/bin/xournalpp(_start+0x2e) [0x5639ad14370e]
+??:0

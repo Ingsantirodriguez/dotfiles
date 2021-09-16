@@ -1,0 +1,261 @@
+Handbrake Version: 1.3.3 (2021031800)
+[16:34:57] gtkgui: Preset: /General/Fast 720p30
+[16:34:57] Starting work at: Wed May 12 16:34:57 2021
+
+[16:34:57] 1 job(s) to process
+[16:34:57] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 160,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "av_aac",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "Name": "simple_aac_recording",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 0,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": true,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 15,
+                    "Ticks": 1413000
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/srodriguez/Videos/2021-05-12 16-28-22.mp4",
+        "InlineParameterSets": false,
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": false
+        },
+        "Mux": "m4v"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 3,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 4,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 12,
+                "Settings": {
+                    "crop-bottom": 44,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 30,
+                    "height": 406,
+                    "width": 852
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "2021-05-12 16-28-22"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/home/srodriguez/2021-05-12 16-28-22.mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ColorFormat": 0,
+        "ColorMatrix": 1,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "x264",
+        "Level": "3.1",
+        "Options": "",
+        "Preset": "fast",
+        "Profile": "main",
+        "QSV": {
+            "AsyncDepth": 4,
+            "Decode": false
+        },
+        "Quality": 21.0,
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": false
+    }
+}
+[16:34:57] CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+[16:34:57]  - Intel microarchitecture Skylake
+[16:34:57]  - logical processor count: 4
+[16:34:57] Intel Quick Sync Video support: yes
+[16:34:57]  - Intel Media SDK hardware: API 1.34 (minimum: 1.3)
+[16:34:57]  - H.264 encoder: yes
+[16:34:57]     - preferred implementation: hardware (any) via ANY
+[16:34:57]     - capabilities (hardware):  breftype icq+la+i+downs vsinfo opt1 opt2+mbbrc+extbrc+trellis+ib_adapt+nmpslice
+[16:34:57]  - H.265 encoder: yes (8bit: yes, 10bit: no)
+[16:34:57]     - preferred implementation: hardware (any) via ANY
+[16:34:57]     - capabilities (hardware):  bpyramid icq vsinfo opt1
+[16:34:57] hb_scan: path=/home/srodriguez/2021-05-12 16-28-22.mkv, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /home/srodriguez/2021-05-12 16-28-22.mkv
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+bluray.c:2585: nav_get_title_list(/home/srodriguez/2021-05-12 16-28-22.mkv/) failed
+[16:34:57] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.1
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[16:34:57] dvd: not a dvd - trying as a stream/file instead
+Input #0, matroska,webm, from '/home/srodriguez/2021-05-12 16-28-22.mkv':
+  Metadata:
+    ENCODER         : Lavf58.76.100
+  Duration: 00:00:15.70, start: 0.000000, bitrate: 275 kb/s
+    Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 852x480, 30 fps, 30 tbr, 1k tbn, 60 tbc (default)
+    Metadata:
+      DURATION        : 00:00:15.700000000
+    Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      title           : simple_aac_recording
+      DURATION        : 00:00:15.595000000
+[16:34:57] scan: decoding previews for title 1
+[16:34:57] scan: audio 0x1: aac, rate=48000Hz, bitrate=1 Unknown (AAC LC) (2.0 ch)
+[16:34:57] scan: 10 previews, 852x480, 30,000 fps, autocrop = 30/44/0/0, aspect 1,77:1, PAR 1:1
+[16:34:57] scan: supported video decoders: avcodec qsv
+[16:34:57] libhb: scan thread found 1 valid title(s)
+[16:34:57] Starting Task: Encoding Pass
+[16:34:57] job configuration:
+[16:34:57]  * source
+[16:34:57]    + /home/srodriguez/2021-05-12 16-28-22.mkv
+[16:34:57]    + title 1, chapter(s) 1 to 1
+[16:34:57]    + container: matroska,webm
+[16:34:57]    + data rate: 275 kbps
+[16:34:57]  * destination
+[16:34:57]    + /home/srodriguez/Videos/2021-05-12 16-28-22.mp4
+[16:34:57]    + container: MPEG-4 (libavformat)
+[16:34:57]      + align initial A/V stream timestamps
+[16:34:57]  * video track
+[16:34:57]    + decoder: h264
+[16:34:57]    + filters
+[16:34:57]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[16:34:57]      + Decomb (mode=39)
+[16:34:57]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[16:34:57]        + frame rate: 30,000 fps -> peak rate limited to 30,000 fps
+[16:34:57]      + Crop and Scale (width=852:height=406:crop-top=30:crop-bottom=44:crop-left=0:crop-right=0)
+[16:34:57]        + source: 852 * 480, crop (30/44/0/0): 852 * 406, scale: 852 * 406
+[16:34:57]    + Output geometry
+[16:34:57]      + storage dimensions: 852 x 406
+[16:34:57]      + pixel aspect ratio: 1 : 1
+[16:34:57]      + display dimensions: 852 x 406
+[16:34:57]    + encoder: H.264 (libx264)
+[16:34:57]      + preset:  fast
+[16:34:57]      + profile: main
+[16:34:57]      + level:   3.1
+[16:34:57]      + quality: 21,00 (RF)
+[16:34:57]      + color profile: 1-1-1
+[16:34:57]  * audio track 1
+[16:34:57]    + name: simple_aac_recording
+[16:34:57]    + decoder: Unknown (AAC LC) (2.0 ch) (track 1, id 0x1)
+[16:34:57]      + samplerate: 48000 Hz
+[16:34:57]    + mixdown: Stereo
+[16:34:57]    + dither: triangular
+[16:34:57]    + encoder: AAC (libavcodec)
+[16:34:57]      + bitrate: 160 kbps, samplerate: 48000 Hz
+[16:34:58] sync: expecting 471 video frames
+[16:34:58] encx264: min-keyint: 30, keyint: 300
+[16:34:58] encx264: encoding at constant RF 21,000000
+[16:34:58] encx264: unparsed options: level=3.1:ref=2:8x8dct=0:weightp=1:subme=6:vbv-bufsize=14000:vbv-maxrate=14000:rc-lookahead=30
+x264 [info]: using SAR=1/1
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+x264 [info]: profile Main, level 3.1, 4:2:0, 8-bit
+[16:34:58] sync: first pts video is 0
+[16:34:58] sync: Chapter 1 at frame 1 time 0
+[16:34:58] sync: first pts audio 0x1 is 0
+[16:35:01] reader: done. 1 scr changes
+[16:35:02] work: average encoding speed for job is 0,000000 fps
+[16:35:02] comb detect: heavy 0 | light 0 | uncombed 470 | total 470
+[16:35:02] decomb: deinterlaced 0 | blended 0 | unfiltered 470 | total 470
+[16:35:02] vfr: 470 frames output, 0 dropped and 0 duped for CFR/PFR
+[16:35:02] vfr: lost time: 0 (0 frames)
+[16:35:02] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[16:35:02] aac-decoder done: 732 frames, 0 decoder errors
+[16:35:02] h264-decoder done: 470 frames, 0 decoder errors
+[16:35:02] sync: got 470 frames, 471 expected
+[16:35:02] sync: framerate min 14,925 fps, max 30,000 fps, avg 29,936 fps
+x264 [info]: frame I:2     Avg QP:16,81  size: 38520
+x264 [info]: frame P:118   Avg QP:21,27  size:   330
+x264 [info]: frame B:350   Avg QP:22,66  size:    71
+x264 [info]: consecutive B-frames:  0,6%  0,0%  0,6% 98,7%
+x264 [info]: mb I  I16..4: 31,7%  0,0% 68,3%
+x264 [info]: mb P  I16..4:  0,4%  0,0%  0,1%  P16..4:  1,5%  0,2%  0,1%  0,0%  0,0%    skip:97,8%
+x264 [info]: mb B  I16..4:  0,1%  0,0%  0,0%  B16..8:  0,6%  0,0%  0,0%  direct: 0,1%  skip:99,2%  L0:52,4% L1:47,5% BI: 0,1%
+x264 [info]: coded y,uvDC,uvAC intra: 60,3% 42,6% 35,2% inter: 0,1% 0,3% 0,2%
+x264 [info]: i16 v,h,dc,p: 53% 42%  4%  1%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 53% 39%  5%  1%  1%  1%  1%  1%  1%
+x264 [info]: i8c dc,h,v,p: 43% 25% 31%  1%
+x264 [info]: Weighted P-Frames: Y:0,0% UV:0,0%
+x264 [info]: ref P L0: 69,8% 30,2%
+x264 [info]: ref B L0: 84,8% 15,2%
+x264 [info]: ref B L1: 93,9%  6,1%
+x264 [info]: kb/s:71,51
+[16:35:02] mux: track 0, 470 frames, 140568 bytes, 71,48 kbps, fifo 512
+[16:35:02] mux: track 1, 733 frames, 4449 bytes, 2,26 kbps, fifo 1024
+[16:35:02] Finished work at: Wed May 12 16:35:02 2021
+
+[16:35:02] libhb: work result = 0

@@ -1,0 +1,236 @@
+Handbrake Version: 1.3.3 (2021031800)
+[16:34:16] gtkgui: Modified Preset: /Web/Vimeo YouTube 720p30
+[16:34:16] Starting work at: Wed May 12 16:34:16 2021
+
+[16:34:16] 1 job(s) to process
+[16:34:16] json job:
+{
+    "Audio": {
+        "AudioList": [
+            {
+                "Bitrate": 320,
+                "CompressionLevel": -1.0,
+                "DRC": 0.0,
+                "DitherMethod": "auto",
+                "Encoder": "vorbis",
+                "Gain": 0.0,
+                "Mixdown": "stereo",
+                "Name": "simple_aac_recording",
+                "NormalizeMixLevel": false,
+                "PresetEncoder": "av_aac",
+                "Quality": -3.0,
+                "Samplerate": 48000,
+                "Track": 0
+            }
+        ],
+        "CopyMask": [
+            "copy:aac"
+        ],
+        "FallbackEncoder": "av_aac"
+    },
+    "Destination": {
+        "AlignAVStart": false,
+        "ChapterList": [
+            {
+                "Duration": {
+                    "Hours": 0,
+                    "Minutes": 0,
+                    "Seconds": 15,
+                    "Ticks": 1413000
+                },
+                "Name": ""
+            }
+        ],
+        "ChapterMarkers": false,
+        "File": "/home/srodriguez/Videos/2021-05-12 16-28-22.webm",
+        "InlineParameterSets": false,
+        "Mp4Options": {
+            "IpodAtom": false,
+            "Mp4Optimize": true
+        },
+        "Mux": "av_webm"
+    },
+    "Filters": {
+        "FilterList": [
+            {
+                "ID": 3,
+                "Settings": {
+                    "block-height": "16",
+                    "block-thresh": "40",
+                    "block-width": "16",
+                    "filter-mode": "2",
+                    "mode": "3",
+                    "motion-thresh": "1",
+                    "spatial-metric": "2",
+                    "spatial-thresh": "1"
+                }
+            },
+            {
+                "ID": 4,
+                "Settings": {
+                    "mode": "7"
+                }
+            },
+            {
+                "ID": 6,
+                "Settings": {
+                    "mode": 2,
+                    "rate": "27000000/900000"
+                }
+            },
+            {
+                "ID": 12,
+                "Settings": {
+                    "crop-bottom": 44,
+                    "crop-left": 0,
+                    "crop-right": 0,
+                    "crop-top": 30,
+                    "height": 406,
+                    "width": 852
+                }
+            }
+        ]
+    },
+    "Metadata": {
+        "Name": "2021-05-12 16-28-22"
+    },
+    "PAR": {
+        "Den": 1,
+        "Num": 1
+    },
+    "SequenceID": 0,
+    "Source": {
+        "Angle": 0,
+        "Path": "/home/srodriguez/2021-05-12 16-28-22.mkv",
+        "Range": {
+            "End": 1,
+            "Start": 1,
+            "Type": "chapter"
+        },
+        "Title": 1
+    },
+    "Subtitle": {
+        "Search": {
+            "Burn": true,
+            "Default": false,
+            "Enable": false,
+            "Forced": false
+        },
+        "SubtitleList": []
+    },
+    "Video": {
+        "ColorFormat": 0,
+        "ColorMatrix": 1,
+        "ColorPrimaries": 1,
+        "ColorRange": 1,
+        "ColorTransfer": 1,
+        "Encoder": "VP8",
+        "Level": "3.2",
+        "Options": "keyint=30:min-keyint=15:ref=1:bframes=2:b-pyramid=none",
+        "Preset": "medium",
+        "Profile": "high",
+        "QSV": {
+            "AsyncDepth": 4,
+            "Decode": false
+        },
+        "Quality": 22.0,
+        "Tune": "",
+        "Turbo": false,
+        "TwoPass": false
+    }
+}
+[16:34:16] CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+[16:34:16]  - Intel microarchitecture Skylake
+[16:34:16]  - logical processor count: 4
+[16:34:16] Intel Quick Sync Video support: yes
+[16:34:16]  - Intel Media SDK hardware: API 1.34 (minimum: 1.3)
+[16:34:16]  - H.264 encoder: yes
+[16:34:16]     - preferred implementation: hardware (any) via ANY
+[16:34:16]     - capabilities (hardware):  breftype icq+la+i+downs vsinfo opt1 opt2+mbbrc+extbrc+trellis+ib_adapt+nmpslice
+[16:34:16]  - H.265 encoder: yes (8bit: yes, 10bit: no)
+[16:34:16]     - preferred implementation: hardware (any) via ANY
+[16:34:16]     - capabilities (hardware):  bpyramid icq vsinfo opt1
+[16:34:16] hb_scan: path=/home/srodriguez/2021-05-12 16-28-22.mkv, title_index=1
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /home/srodriguez/2021-05-12 16-28-22.mkv
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+bluray.c:2585: nav_get_title_list(/home/srodriguez/2021-05-12 16-28-22.mkv/) failed
+[16:34:16] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.1
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[16:34:16] dvd: not a dvd - trying as a stream/file instead
+Input #0, matroska,webm, from '/home/srodriguez/2021-05-12 16-28-22.mkv':
+  Metadata:
+    ENCODER         : Lavf58.76.100
+  Duration: 00:00:15.70, start: 0.000000, bitrate: 275 kb/s
+    Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 852x480, 30 fps, 30 tbr, 1k tbn, 60 tbc (default)
+    Metadata:
+      DURATION        : 00:00:15.700000000
+    Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      title           : simple_aac_recording
+      DURATION        : 00:00:15.595000000
+[16:34:16] scan: decoding previews for title 1
+[16:34:16] scan: audio 0x1: aac, rate=48000Hz, bitrate=1 Unknown (AAC LC) (2.0 ch)
+[16:34:16] scan: 10 previews, 852x480, 30,000 fps, autocrop = 30/44/0/0, aspect 1,77:1, PAR 1:1
+[16:34:16] scan: supported video decoders: avcodec qsv
+[16:34:16] libhb: scan thread found 1 valid title(s)
+[16:34:16] Starting Task: Encoding Pass
+[16:34:16] job configuration:
+[16:34:16]  * source
+[16:34:16]    + /home/srodriguez/2021-05-12 16-28-22.mkv
+[16:34:16]    + title 1, chapter(s) 1 to 1
+[16:34:16]    + container: matroska,webm
+[16:34:16]    + data rate: 275 kbps
+[16:34:16]  * destination
+[16:34:16]    + /home/srodriguez/Videos/2021-05-12 16-28-22.webm
+[16:34:16]    + container: WebM (libavformat)
+[16:34:16]  * video track
+[16:34:16]    + decoder: h264
+[16:34:16]    + filters
+[16:34:16]      + Comb Detect (mode=3:spatial-metric=2:motion-thresh=1:spatial-thresh=1:filter-mode=2:block-thresh=40:block-width=16:block-height=16)
+[16:34:16]      + Decomb (mode=39)
+[16:34:16]      + Framerate Shaper (mode=2:rate=27000000/900000)
+[16:34:16]        + frame rate: 30,000 fps -> peak rate limited to 30,000 fps
+[16:34:16]      + Crop and Scale (width=852:height=406:crop-top=30:crop-bottom=44:crop-left=0:crop-right=0)
+[16:34:16]        + source: 852 * 480, crop (30/44/0/0): 852 * 406, scale: 852 * 406
+[16:34:16]    + Output geometry
+[16:34:16]      + storage dimensions: 852 x 406
+[16:34:16]      + pixel aspect ratio: 1 : 1
+[16:34:16]      + display dimensions: 852 x 406
+[16:34:16]    + encoder: VP8 (libvpx)
+[16:34:16]      + preset:  medium
+[16:34:16]      + options: keyint=30:min-keyint=15:ref=1:bframes=2:b-pyramid=none
+[16:34:16]      + quality: 22,00 (CQ)
+[16:34:16]      + color profile: 1-1-1
+[16:34:16]  * audio track 1
+[16:34:16]    + name: simple_aac_recording
+[16:34:16]    + decoder: Unknown (AAC LC) (2.0 ch) (track 1, id 0x1)
+[16:34:16]      + samplerate: 48000 Hz
+[16:34:16]    + mixdown: Stereo
+[16:34:16]    + dither: triangular
+[16:34:16]    + encoder: Vorbis (libvorbis)
+[16:34:16]      + bitrate: 320 kbps, samplerate: 48000 Hz
+[16:34:16] sync: expecting 471 video frames
+[16:34:16] encvorbis: opening libvorbis
+[16:34:16] encavcodecInit: VP8 encoder
+[16:34:16] encavcodec: encoding at CQ 22,00
+[16:34:16] encavcodec: encoding with stored aspect 1/1
+[libvpx @ 0x7f28944dcc40] Failed to initialize encoder: ABI version mismatch
+[16:34:16] encavcodecInit: avcodec_open failed
+[16:34:16] Failure to initialise thread 'FFMPEG encoder (libavcodec)'
+[16:34:16] comb detect: heavy 0 | light 0 | uncombed 0 | total 0
+[16:34:16] decomb: deinterlaced 0 | blended 0 | unfiltered 0 | total 0
+[16:34:16] vfr: 0 frames output, 0 dropped and 0 duped for CFR/PFR
+[16:34:16] vfr: lost time: 0 (0 frames)
+[16:34:16] vfr: gained time: 0 (0 frames) (0 not accounted for)
+[16:34:16] aac-decoder done: 0 frames, 0 decoder errors
+[16:34:16] h264-decoder done: 0 frames, 0 decoder errors
+[16:34:16] sync: got 0 frames, 471 expected
+[16:34:16] Finished work at: Wed May 12 16:34:16 2021
+
+[16:34:16] libhb: work result = 3

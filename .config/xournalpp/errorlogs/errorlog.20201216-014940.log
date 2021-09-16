@@ -1,0 +1,56 @@
+Date: Wed Dec 16 01:49:40 2020
+Error: signal 11
+[bt]: (0) xournalpp(+0x1da83a) [0x564eeebf083a]
+[bt]: (1) /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7fc74edd4210]
+[bt]: (2) xournalpp(_Z16xoj_type_getNamei+0x1004) [0x564eeebfa594]
+[bt]: (3) xournalpp(_ZN7XojPage11unreferenceEv+0x47) [0x564eeebcdc07]
+[bt]: (4) xournalpp(_ZN7PageRefaSEP7XojPage+0x1e) [0x564eeebc6d9e]
+[bt]: (5) xournalpp(_ZN23SidebarPreviewBaseEntryD1Ev+0xae) [0x564eeeb9b36e]
+[bt]: (6) xournalpp(_ZN23SidebarPreviewPageEntryD0Ev+0xd) [0x564eeeb9d9dd]
+[bt]: (7) xournalpp(_ZN18SidebarPreviewBaseD1Ev+0xfe) [0x564eeeb9a25e]
+[bt]: (8) xournalpp(_ZN19SidebarPreviewPagesD0Ev+0xd) [0x564eeeb9e18d]
+[bt]: (9) xournalpp(_ZN7SidebarD1Ev+0xb7) [0x564eeeb97837]
+[bt]: (10) xournalpp(_ZN7SidebarD0Ev+0xd) [0x564eeeb9796d]
+[bt]: (11) xournalpp(_ZN7ControlD2Ev+0x211) [0x564eeeac3141]
+[bt]: (12) xournalpp(_ZN7ControlD0Ev+0xd) [0x564eeeac345d]
+[bt]: (13) xournalpp(_ZN11XournalMain3runEiPPc+0xe72) [0x564eeeae55d2]
+[bt]: (14) xournalpp(main+0x37) [0x564eeeabc4a7]
+[bt]: (15) /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc74edb50b3]
+[bt]: (16) xournalpp(_start+0x2e) [0x564eeeabc6be]
+
+
+Try to get a better stracktrace...
+[bt] #1 xournalpp(+0x1daade) [0x564eeebf0ade]
+??:0
+[bt] #2 /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7fc74edd4210]
+??:0
+[bt] #3 xournalpp(_Z16xoj_type_getNamei+0x1004) [0x564eeebfa594]
+??:0
+[bt] #4 xournalpp(_ZN7XojPage11unreferenceEv+0x47) [0x564eeebcdc07]
+??:0
+[bt] #5 xournalpp(_ZN7PageRefaSEP7XojPage+0x1e) [0x564eeebc6d9e]
+??:0
+[bt] #6 xournalpp(_ZN23SidebarPreviewBaseEntryD1Ev+0xae) [0x564eeeb9b36e]
+??:0
+[bt] #7 xournalpp(_ZN23SidebarPreviewPageEntryD0Ev+0xd) [0x564eeeb9d9dd]
+??:0
+[bt] #8 xournalpp(_ZN18SidebarPreviewBaseD1Ev+0xfe) [0x564eeeb9a25e]
+??:0
+[bt] #9 xournalpp(_ZN19SidebarPreviewPagesD0Ev+0xd) [0x564eeeb9e18d]
+??:0
+[bt] #10 xournalpp(_ZN7SidebarD1Ev+0xb7) [0x564eeeb97837]
+??:0
+[bt] #11 xournalpp(_ZN7SidebarD0Ev+0xd) [0x564eeeb9796d]
+??:0
+[bt] #12 xournalpp(_ZN7ControlD2Ev+0x211) [0x564eeeac3141]
+??:0
+[bt] #13 xournalpp(_ZN7ControlD0Ev+0xd) [0x564eeeac345d]
+??:0
+[bt] #14 xournalpp(_ZN11XournalMain3runEiPPc+0xe72) [0x564eeeae55d2]
+??:0
+[bt] #15 xournalpp(main+0x37) [0x564eeeabc4a7]
+??:0
+[bt] #16 /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7fc74edb50b3]
+??:0
+[bt] #17 xournalpp(_start+0x2e) [0x564eeeabc6be]
+??:0

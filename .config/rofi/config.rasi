@@ -1,0 +1,9 @@
+configuration {
+}
+//@theme "solarized"
+//@theme "/usr/share/rofi/themes/solarized_alternate.rasi"
+//@theme "/usr/share/rofi/themes/matcha.rasi"
+//@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
+//@theme "/usr/share/rofi/themes/nord.rasi"
+//@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
+@theme "/usr/share/rofi/themes/manjaro-i3.rasi"

@@ -1,0 +1,78 @@
+window:
+  padding:
+    x: 6
+    y: 6
+
+  dynamic_padding: false
+
+  decorations: none
+  dynamic_title: true
+
+  history: 10000
+  multiplier: 3
+        
+ 
+
+font:
+  normal:
+    family: TerminessTTF Nerd Font Mono
+    style: Medium
+
+  bold:
+    family: TerminessTTF Nerd Font Mono
+    style: Bold
+
+  italic:
+    family: TerminessTTF Nerd Font Mono 
+    style: Medium Italic
+
+  bold_italic:
+    family: TerminessTTF Nerd Font Mono
+    style: Bold Italic
+
+  size: 11.0
+
+  offset:
+    x: 0
+    y: 0
+
+
+# Colors (Gruvbox dark)
+colors:
+  # Default colors
+  primary:
+    # hard contrast: background = '0x1d2021'
+    background: '#222d31'
+    # soft contrast: background = '0x32302f'
+    foreground: '#d8d8d8'
+
+  # Normal colors
+  normal:
+    black:   '#222d31'
+    red:     '#ab4642'
+    green:   '#7e807e'
+    yellow:  '#f7ca88'
+    blue:    '#7cafc2'
+    magenta: '#ba8baf'
+    cyan:    '#1abb9b'
+    white:   '#d8d8d8'
+
+  # Bright colors
+  bright:
+    black:   '#585858'
+    red:     '#ab4642'
+    green:   '#8d8f8d'
+    yellow:  '#f7ca88'
+    blue:    '#7cafc2'
+    magenta: '#ba8baf'
+    cyan:    '#1abb9b'
+    white:   '#f8f8f8'
+
+  line_indicator:
+    background: '#263330'
+
+bell:
+  background_opacity: 1.0
+
+mouse:
+  hide_when_typing: true

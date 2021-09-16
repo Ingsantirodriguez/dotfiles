@@ -1,0 +1,15 @@
+[2021-05-14 10:28:31.679] [default] [info] Welcome to PDF Slicer
+[2021-05-14 10:28:31.679] [default] [info] Logging to file: /home/srodriguez/.config/com.github.junrrein.PDFSlicer/log.txt
+[2021-05-14 10:28:31.821] [default] [warning] Error while loading config file: No such file or directory
+[2021-05-14 10:28:31.833] [default] [warning] Error while loading window state: Key file does not have group “window-state”
+[2021-05-14 10:28:31.833] [default] [warning] Error while loading zoom level: Key file does not have group “misc”
+[2021-08-23 11:05:46.360] [default] [info] Welcome to PDF Slicer
+[2021-08-23 11:05:46.360] [default] [info] Logging to file: /home/srodriguez/.config/com.github.junrrein.PDFSlicer/log.txt
+[2021-08-25 17:40:37.184] [default] [info] Welcome to PDF Slicer
+[2021-08-25 17:40:37.184] [default] [info] Logging to file: /home/srodriguez/.config/com.github.junrrein.PDFSlicer/log.txt
+[2021-08-26 12:22:26.723] [default] [info] Welcome to PDF Slicer
+[2021-08-26 12:22:26.723] [default] [info] Logging to file: /home/srodriguez/.config/com.github.junrrein.PDFSlicer/log.txt
+[2021-08-26 12:27:35.526] [default] [info] Welcome to PDF Slicer
+[2021-08-26 12:27:35.526] [default] [info] Logging to file: /home/srodriguez/.config/com.github.junrrein.PDFSlicer/log.txt
+[2021-08-26 12:32:58.583] [default] [info] Welcome to PDF Slicer
+[2021-08-26 12:32:58.583] [default] [info] Logging to file: /home/srodriguez/.config/com.github.junrrein.PDFSlicer/log.txt

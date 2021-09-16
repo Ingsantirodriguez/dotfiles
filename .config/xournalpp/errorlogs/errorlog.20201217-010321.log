@@ -1,0 +1,150 @@
+Date: Thu Dec 17 01:03:21 2020
+Error: signal 11
+[bt]: (0) xournalpp(+0x1da83a) [0x559dae90d83a]
+[bt]: (1) /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f70a0398210]
+[bt]: (2) /lib/x86_64-linux-gnu/libcairo.so.2(cairo_transform+0x4) [0x7f70a0eef6a4]
+[bt]: (3) /lib/x86_64-linux-gnu/libpoppler-glib.so.8(+0x41fd5) [0x7f70a0a25fd5]
+[bt]: (4) /lib/x86_64-linux-gnu/libpoppler.so.97(_ZN3GfxC2EP6PDFDocP9OutputDeviP4DictddPK12PDFRectangleS8_iPFbPvES9_P4XRef+0x1d8) [0x7f709f65b178]
+[bt]: (5) /lib/x86_64-linux-gnu/libpoppler.so.97(_ZN4Page9createGfxEP9OutputDevddibbiiiibPFbPvES2_P4XRef+0x210) [0x7f709f6b1c80]
+[bt]: (6) /lib/x86_64-linux-gnu/libpoppler.so.97(_ZN4Page12displaySliceEP9OutputDevddibbiiiibPFbPvES2_PFbP5AnnotS2_ES2_b+0x130) [0x7f709f6b1ef0]
+[bt]: (7) /lib/x86_64-linux-gnu/libpoppler-glib.so.8(+0x253be) [0x7f70a0a093be]
+[bt]: (8) xournalpp(_ZN12DocumentView12drawTexImageEP6_cairoP8TexImage+0x19d) [0x559dae90410d]
+[bt]: (9) xournalpp(_ZN12DocumentView13drawSelectionEP6_cairoP16ElementContainer+0xb2) [0x559dae9046f2]
+[bt]: (10) xournalpp(_ZN21EditSelectionContents5paintEP6_cairodddddd+0x36f) [0x559dae83a89f]
+[bt]: (11) xournalpp(_ZN13EditSelection5paintEP6_cairod+0xfc) [0x559dae837fec]
+[bt]: (12) xournalpp(+0x1a47e8) [0x559dae8d77e8]
+[bt]: (13) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+[bt]: (14) /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+[bt]: (15) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x17d35d) [0x7f70a127235d]
+[bt]: (16) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x2a3391) [0x7f70a1398391]
+[bt]: (17) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x38d979) [0x7f70a1482979]
+[bt]: (18) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x182601) [0x7f70a1277601]
+[bt]: (19) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x18749c) [0x7f70a127c49c]
+[bt]: (20) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x38e6b1) [0x7f70a14836b1]
+[bt]: (21) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+[bt]: (22) /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+[bt]: (23) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x17d35d) [0x7f70a127235d]
+[bt]: (24) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x2d17cd) [0x7f70a13c67cd]
+[bt]: (25) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x182601) [0x7f70a1277601]
+[bt]: (26) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x18749c) [0x7f70a127c49c]
+[bt]: (27) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x2cfaa5) [0x7f70a13c4aa5]
+[bt]: (28) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+[bt]: (29) /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+[bt]: (30) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x17d35d) [0x7f70a127235d]
+[bt]: (31) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x12dfd8) [0x7f70a1222fd8]
+[bt]: (32) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x182601) [0x7f70a1277601]
+[bt]: (33) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x18749c) [0x7f70a127c49c]
+[bt]: (34) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x1308f5) [0x7f70a12258f5]
+[bt]: (35) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+[bt]: (36) /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+[bt]: (37) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x2812fc) [0x7f70a13762fc]
+[bt]: (38) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x182601) [0x7f70a1277601]
+[bt]: (39) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x18749c) [0x7f70a127c49c]
+[bt]: (40) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x281105) [0x7f70a1376105]
+[bt]: (41) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+[bt]: (42) /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+[bt]: (43) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x17d35d) [0x7f70a127235d]
+[bt]: (44) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x12dfd8) [0x7f70a1222fd8]
+[bt]: (45) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x182601) [0x7f70a1277601]
+[bt]: (46) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x18749c) [0x7f70a127c49c]
+[bt]: (47) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x1308f5) [0x7f70a12258f5]
+[bt]: (48) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+[bt]: (49) /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+[bt]: (50) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x17d35d) [0x7f70a127235d]
+[bt]: (51) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x12dfd8) [0x7f70a1222fd8]
+[bt]: (52) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x182601) [0x7f70a1277601]
+[bt]: (53) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x18749c) [0x7f70a127c49c]
+[bt]: (54) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x1308f5) [0x7f70a12258f5]
+[bt]: (55) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+[bt]: (56) /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+[bt]: (57) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x17d35d) [0x7f70a127235d]
+[bt]: (58) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+[bt]: (59) /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+[bt]: (60) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x17d35d) [0x7f70a127235d]
+[bt]: (61) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x3ab7c5) [0x7f70a14a07c5]
+[bt]: (62) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+[bt]: (63) /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x3a6050) [0x7f70a149b050]
+[bt]: (64) /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_main_do_event+0x874) [0x7f70a13443b4]
+[bt]: (65) /lib/x86_64-linux-gnu/libgdk-3.so.0(+0x3cf79) [0x7f70a102cf79]
+[bt]: (66) /lib/x86_64-linux-gnu/libgdk-3.so.0(+0x4e2e1) [0x7f70a103e2e1]
+[bt]: (67) /lib/x86_64-linux-gnu/libgdk-3.so.0(+0x4f4b5) [0x7f70a103f4b5]
+[bt]: (68) /lib/x86_64-linux-gnu/libgdk-3.so.0(+0x4f674) [0x7f70a103f674]
+[bt]: (69) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(+0x14a56) [0x7f70a0c15a56]
+[bt]: (70) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_signal_emit_valist+0x1038) [0x7f70a0c34b28]
+[bt]: (71) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_signal_emit+0x93) [0x7f70a0c350d3]
+[bt]: (72) /lib/x86_64-linux-gnu/libgdk-3.so.0(+0x46cf3) [0x7f70a1036cf3]
+[bt]: (73) /lib/x86_64-linux-gnu/libgdk-3.so.0(+0x30f4d) [0x7f70a1020f4d]
+[bt]: (74) /lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x52a28) [0x7f70a18f8a28]
+[bt]: (75) /lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_context_dispatch+0x14e) [0x7f70a18f7e8e]
+[bt]: (76) /lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x52240) [0x7f70a18f8240]
+[bt]: (77) /lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_loop_run+0x83) [0x7f70a18f8533]
+[bt]: (78) /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_main+0x7d) [0x7f70a134337d]
+[bt]: (79) xournalpp(_ZN11XournalMain3runEiPPc+0xe36) [0x559dae802596]
+[bt]: (80) xournalpp(main+0x37) [0x559dae7d94a7]
+[bt]: (81) /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f70a03790b3]
+[bt]: (82) xournalpp(_start+0x2e) [0x559dae7d96be]
+
+
+Try to get a better stracktrace...
+[bt] #1 xournalpp(+0x1daade) [0x559dae90dade]
+??:0
+[bt] #2 /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f70a0398210]
+??:0
+[bt] #3 /lib/x86_64-linux-gnu/libcairo.so.2(cairo_transform+0x4) [0x7f70a0eef6a4]
+??:0
+[bt] #4 /lib/x86_64-linux-gnu/libpoppler-glib.so.8(+0x41fd5) [0x7f70a0a25fd5]
+??:0
+[bt] #5 /lib/x86_64-linux-gnu/libpoppler.so.97(_ZN3GfxC2EP6PDFDocP9OutputDeviP4DictddPK12PDFRectangleS8_iPFbPvES9_P4XRef+0x1d8) [0x7f709f65b178]
+??:0
+[bt] #6 /lib/x86_64-linux-gnu/libpoppler.so.97(_ZN4Page9createGfxEP9OutputDevddibbiiiibPFbPvES2_P4XRef+0x210) [0x7f709f6b1c80]
+??:0
+[bt] #7 /lib/x86_64-linux-gnu/libpoppler.so.97(_ZN4Page12displaySliceEP9OutputDevddibbiiiibPFbPvES2_PFbP5AnnotS2_ES2_b+0x130) [0x7f709f6b1ef0]
+??:0
+[bt] #8 /lib/x86_64-linux-gnu/libpoppler-glib.so.8(+0x253be) [0x7f70a0a093be]
+??:0
+[bt] #9 xournalpp(_ZN12DocumentView12drawTexImageEP6_cairoP8TexImage+0x19d) [0x559dae90410d]
+??:0
+[bt] #10 xournalpp(_ZN12DocumentView13drawSelectionEP6_cairoP16ElementContainer+0xb2) [0x559dae9046f2]
+??:0
+[bt] #11 xournalpp(_ZN21EditSelectionContents5paintEP6_cairodddddd+0x36f) [0x559dae83a89f]
+??:0
+[bt] #12 xournalpp(_ZN13EditSelection5paintEP6_cairod+0xfc) [0x559dae837fec]
+??:0
+[bt] #13 xournalpp(+0x1a47e8) [0x559dae8d77e8]
+??:0
+[bt] #14 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+??:0
+[bt] #15 /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+??:0
+[bt] #16 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x17d35d) [0x7f70a127235d]
+??:0
+[bt] #17 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x2a3391) [0x7f70a1398391]
+??:0
+[bt] #18 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x38d979) [0x7f70a1482979]
+??:0
+[bt] #19 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x182601) [0x7f70a1277601]
+??:0
+[bt] #20 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x18749c) [0x7f70a127c49c]
+??:0
+[bt] #21 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x38e6b1) [0x7f70a14836b1]
+??:0
+[bt] #22 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+??:0
+[bt] #23 /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+??:0
+[bt] #24 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x17d35d) [0x7f70a127235d]
+??:0
+[bt] #25 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x2d17cd) [0x7f70a13c67cd]
+??:0
+[bt] #26 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x182601) [0x7f70a1277601]
+??:0
+[bt] #27 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x18749c) [0x7f70a127c49c]
+??:0
+[bt] #28 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x2cfaa5) [0x7f70a13c4aa5]
+??:0
+[bt] #29 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x39cd04) [0x7f70a1491d04]
+??:0
+[bt] #30 /lib/x86_64-linux-gnu/libgtk-3.so.0(gtk_container_propagate_draw+0x1eb) [0x7f70a127228b]
+??:0
+[bt] #31 /lib/x86_64-linux-gnu/libgtk-3.so.0(+0x17d35d) [0x7f70a127235d]
+??:0

@@ -1,0 +1,14 @@
+Date: Sat Feb 20 15:49:51 2021
+Error: signal 11
+[bt]: (0) xournalpp(+0x1da83a) [0x5634dd8fd83a]
+[bt]: (1) /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f40ddfbb210]
+[bt]: (2) [0x5634de117210]
+
+
+Try to get a better stracktrace...
+[bt] #1 xournalpp(+0x1daade) [0x5634dd8fdade]
+??:0
+[bt] #2 /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f40ddfbb210]
+??:0
+[bt] #3 [0x5634de117210]
+??:0

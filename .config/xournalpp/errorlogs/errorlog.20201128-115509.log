@@ -1,0 +1,127 @@
+Date: Sat Nov 28 11:55:09 2020
+Error: signal 11
+[bt]: (0) /tmp/.mount_xournaOQKKu4/usr/bin/xournalpp() [0x5c04c8]
+[bt]: (1) /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f3fe4235210]
+[bt]: (2) /lib/x86_64-linux-gnu/libc.so.6(+0x18e7b8) [0x7f3fe437d7b8]
+[bt]: (3) /tmp/.mount_xournaOQKKu4/usr/lib/libpng12.so.0(+0x1baa5) [0x7f3fe1373aa5]
+[bt]: (4) /tmp/.mount_xournaOQKKu4/usr/lib/libpng12.so.0(+0x1bf5c) [0x7f3fe1373f5c]
+[bt]: (5) /tmp/.mount_xournaOQKKu4/usr/lib/libpng12.so.0(+0x1c151) [0x7f3fe1374151]
+[bt]: (6) /tmp/.mount_xournaOQKKu4/usr/lib/libpng12.so.0(png_process_data+0x3b) [0x7f3fe13742cb]
+[bt]: (7) /tmp/.mount_xournaOQKKu4/usr/lib/gdk-pixbuf-2.0/loaders/libpixbufloader-png.so(+0x2b99) [0x7f3fd173ab99]
+[bt]: (8) /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(+0x10281) [0x7f3fe5ae9281]
+[bt]: (9) /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(gdk_pixbuf_loader_close+0x175) [0x7f3fe5ae9b15]
+[bt]: (10) /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(+0xd233) [0x7f3fe5ae6233]
+[bt]: (11) /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(gdk_pixbuf_new_from_stream+0x31) [0x7f3fe5ae72c1]
+[bt]: (12) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1dd994) [0x7f3fe633f994]
+[bt]: (13) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_icon_info_load_icon+0x68) [0x7f3fe6343198]
+[bt]: (14) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_icon_info_load_symbolic_for_context+0x183) [0x7f3fe6343e83]
+[bt]: (15) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1da883) [0x7f3fe633c883]
+[bt]: (16) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1dabbb) [0x7f3fe633cbbb]
+[bt]: (17) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1edcf2) [0x7f3fe634fcf2]
+[bt]: (18) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1eded7) [0x7f3fe634fed7]
+[bt]: (19) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a871b) [0x7f3fe640a71b]
+[bt]: (20) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f3fe640a9af]
+[bt]: (21) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f3fe640ac76]
+[bt]: (22) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x120186) [0x7f3fe6282186]
+[bt]: (23) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1201fb) [0x7f3fe62821fb]
+[bt]: (24) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a871b) [0x7f3fe640a71b]
+[bt]: (25) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f3fe640a9af]
+[bt]: (26) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height+0x8a) [0x7f3fe640a08a]
+[bt]: (27) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a87d4) [0x7f3fe640a7d4]
+[bt]: (28) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f3fe640a9af]
+[bt]: (29) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f3fe640ac76]
+[bt]: (30) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a8d37) [0x7f3fe640ad37]
+[bt]: (31) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x301d94) [0x7f3fe6463d94]
+[bt]: (32) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x3020b9) [0x7f3fe64640b9]
+[bt]: (33) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a87d4) [0x7f3fe640a7d4]
+[bt]: (34) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f3fe640a9af]
+[bt]: (35) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f3fe640ac76]
+[bt]: (36) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x11348d) [0x7f3fe627548d]
+[bt]: (37) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a871b) [0x7f3fe640a71b]
+[bt]: (38) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f3fe640a9af]
+[bt]: (39) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height+0x8a) [0x7f3fe640a08a]
+[bt]: (40) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x10f8a1) [0x7f3fe62718a1]
+[bt]: (41) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a87d4) [0x7f3fe640a7d4]
+[bt]: (42) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f3fe640a9af]
+[bt]: (43) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height+0x8a) [0x7f3fe640a08a]
+[bt]: (44) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x368342) [0x7f3fe64ca342]
+[bt]: (45) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a87d4) [0x7f3fe640a7d4]
+[bt]: (46) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f3fe640a9af]
+[bt]: (47) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f3fe640ac76]
+[bt]: (48) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a8d37) [0x7f3fe640ad37]
+[bt]: (49) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x369d93) [0x7f3fe64cbd93]
+[bt]: (50) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x36cb00) [0x7f3fe64ceb00]
+[bt]: (51) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_closure_invoke+0x1b2) [0x7f3fe58ac802]
+[bt]: (52) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(+0x28962) [0x7f3fe58c0962]
+[bt]: (53) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_signal_emit_valist+0x10ae) [0x7f3fe58cbb9e]
+[bt]: (54) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_signal_emit+0x93) [0x7f3fe58cc0d3]
+[bt]: (55) /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_show+0xa5) [0x7f3fe64be715]
+[bt]: (56) /tmp/.mount_xournaOQKKu4/usr/bin/xournalpp(_ZN11XournalMain3runEiPPc+0x85e) [0x4adb4e]
+[bt]: (57) /tmp/.mount_xournaOQKKu4/usr/bin/xournalpp(main+0x30) [0x4814f0]
+[bt]: (58) /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f3fe42160b3]
+[bt]: (59) /tmp/.mount_xournaOQKKu4/usr/bin/xournalpp(_start+0x29) [0x4816a9]
+
+
+Try to get a better stracktrace...
+[bt] #1 /tmp/.mount_xournaOQKKu4/usr/bin/xournalpp() [0x5c089d]
+/home/vsts/work/1/s/build/../src/util/CrashHandlerUnix.h:102
+[bt] #2 /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f3fe4235210]
+??:0
+[bt] #3 /lib/x86_64-linux-gnu/libc.so.6(+0x18e7b8) [0x7f3fe437d7b8]
+??:0
+[bt] #4 /tmp/.mount_xournaOQKKu4/usr/lib/libpng12.so.0(+0x1baa5) [0x7f3fe1373aa5]
+??:0
+[bt] #5 /tmp/.mount_xournaOQKKu4/usr/lib/libpng12.so.0(+0x1bf5c) [0x7f3fe1373f5c]
+??:0
+[bt] #6 /tmp/.mount_xournaOQKKu4/usr/lib/libpng12.so.0(+0x1c151) [0x7f3fe1374151]
+??:0
+[bt] #7 /tmp/.mount_xournaOQKKu4/usr/lib/libpng12.so.0(png_process_data+0x3b) [0x7f3fe13742cb]
+??:0
+[bt] #8 /tmp/.mount_xournaOQKKu4/usr/lib/gdk-pixbuf-2.0/loaders/libpixbufloader-png.so(+0x2b99) [0x7f3fd173ab99]
+??:0
+[bt] #9 /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(+0x10281) [0x7f3fe5ae9281]
+??:0
+[bt] #10 /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(gdk_pixbuf_loader_close+0x175) [0x7f3fe5ae9b15]
+??:0
+[bt] #11 /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(+0xd233) [0x7f3fe5ae6233]
+??:0
+[bt] #12 /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(gdk_pixbuf_new_from_stream+0x31) [0x7f3fe5ae72c1]
+??:0
+[bt] #13 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1dd994) [0x7f3fe633f994]
+??:0
+[bt] #14 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_icon_info_load_icon+0x68) [0x7f3fe6343198]
+??:0
+[bt] #15 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_icon_info_load_symbolic_for_context+0x183) [0x7f3fe6343e83]
+??:0
+[bt] #16 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1da883) [0x7f3fe633c883]
+??:0
+[bt] #17 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1dabbb) [0x7f3fe633cbbb]
+??:0
+[bt] #18 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1edcf2) [0x7f3fe634fcf2]
+??:0
+[bt] #19 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1eded7) [0x7f3fe634fed7]
+??:0
+[bt] #20 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a871b) [0x7f3fe640a71b]
+??:0
+[bt] #21 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f3fe640a9af]
+??:0
+[bt] #22 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f3fe640ac76]
+??:0
+[bt] #23 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x120186) [0x7f3fe6282186]
+??:0
+[bt] #24 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x1201fb) [0x7f3fe62821fb]
+??:0
+[bt] #25 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a871b) [0x7f3fe640a71b]
+??:0
+[bt] #26 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f3fe640a9af]
+??:0
+[bt] #27 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height+0x8a) [0x7f3fe640a08a]
+??:0
+[bt] #28 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a87d4) [0x7f3fe640a7d4]
+??:0
+[bt] #29 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f3fe640a9af]
+??:0
+[bt] #30 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f3fe640ac76]
+??:0
+[bt] #31 /tmp/.mount_xournaOQKKu4/usr/lib/libgtk-3.so.0(+0x2a8d37) [0x7f3fe640ad37]
+??:0

@@ -1,0 +1,44 @@
+Date: Wed Feb  3 22:31:46 2021
+Error: signal 11
+[bt]: (0) xournalpp(+0x1da83a) [0x55d2a6b8983a]
+[bt]: (1) /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f5a5cc4d210]
+[bt]: (2) xournalpp(_Z16xoj_type_getNamei+0x1004) [0x55d2a6b93594]
+[bt]: (3) xournalpp(_ZNK7Element7getTypeEv+0x47) [0x55d2a6b5b717]
+[bt]: (4) xournalpp(_ZN12DocumentView11drawElementEP6_cairoP7Element+0x8a) [0x55d2a6b802ea]
+[bt]: (5) xournalpp(_ZN12DocumentView9drawLayerEP6_cairoP5Layer+0xfc) [0x55d2a6b8048c]
+[bt]: (6) xournalpp(_ZN12DocumentView8drawPageE7PageRefP6_cairobb+0x138) [0x55d2a6b80f18]
+[bt]: (7) xournalpp(_ZN10PreviewJob8drawPageEi+0x14b) [0x55d2a6a8808b]
+[bt]: (8) xournalpp(_ZN10PreviewJob3runEv+0x10f) [0x55d2a6a881ef]
+[bt]: (9) xournalpp(_ZN9Scheduler17jobThreadCallbackEPS_+0x149) [0x55d2a6a8aa99]
+[bt]: (10) /lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x7b911) [0x7f5a5e1d6911]
+[bt]: (11) /lib/x86_64-linux-gnu/libpthread.so.0(+0x9609) [0x7f5a5d248609]
+[bt]: (12) /lib/x86_64-linux-gnu/libc.so.6(clone+0x43) [0x7f5a5cd29293]
+
+
+Try to get a better stracktrace...
+[bt] #1 xournalpp(+0x1daade) [0x55d2a6b89ade]
+??:0
+[bt] #2 /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f5a5cc4d210]
+??:0
+[bt] #3 xournalpp(_Z16xoj_type_getNamei+0x1004) [0x55d2a6b93594]
+??:0
+[bt] #4 xournalpp(_ZNK7Element7getTypeEv+0x47) [0x55d2a6b5b717]
+??:0
+[bt] #5 xournalpp(_ZN12DocumentView11drawElementEP6_cairoP7Element+0x8a) [0x55d2a6b802ea]
+??:0
+[bt] #6 xournalpp(_ZN12DocumentView9drawLayerEP6_cairoP5Layer+0xfc) [0x55d2a6b8048c]
+??:0
+[bt] #7 xournalpp(_ZN12DocumentView8drawPageE7PageRefP6_cairobb+0x138) [0x55d2a6b80f18]
+??:0
+[bt] #8 xournalpp(_ZN10PreviewJob8drawPageEi+0x14b) [0x55d2a6a8808b]
+??:0
+[bt] #9 xournalpp(_ZN10PreviewJob3runEv+0x10f) [0x55d2a6a881ef]
+??:0
+[bt] #10 xournalpp(_ZN9Scheduler17jobThreadCallbackEPS_+0x149) [0x55d2a6a8aa99]
+??:0
+[bt] #11 /lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x7b911) [0x7f5a5e1d6911]
+??:0
+[bt] #12 /lib/x86_64-linux-gnu/libpthread.so.0(+0x9609) [0x7f5a5d248609]
+??:0
+[bt] #13 /lib/x86_64-linux-gnu/libc.so.6(clone+0x43) [0x7f5a5cd29293]
+??:0

@@ -1,0 +1,4 @@
+T 1622319284 19*	Now talking on 22#manjaro-unregistered
+T 1622319284 22*	Topic for 22#manjaro-unregistered is: Manjaro is no longer on IRC. Please read wiki.manjaro.org or vitis forum.manjaro.org for support.
+T 1622319284 22*	Topic for 22#manjaro-unregistered set by 26jonathon (24Sun Jul 26 10:54:17 2020)
+T 1622319296 FiSHLiM plugin unloaded

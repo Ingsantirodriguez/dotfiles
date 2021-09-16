@@ -1,0 +1,41 @@
+Date: Wed Dec 16 11:57:48 2020
+Error: signal 11
+[bt]: (0) xournalpp(+0x1da83a) [0x55852928a83a]
+[bt]: (1) /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7fa47e009210]
+[bt]: (2) xournalpp(_ZNK7Element7getTypeEv+0x5) [0x55852925c6d5]
+[bt]: (3) xournalpp(_ZN12DocumentView11drawElementEP6_cairoP7Element+0x8a) [0x5585292812ea]
+[bt]: (4) xournalpp(_ZN12DocumentView9drawLayerEP6_cairoP5Layer+0xfc) [0x55852928148c]
+[bt]: (5) xournalpp(_ZN12DocumentView8drawPageE7PageRefP6_cairobb+0x138) [0x558529281f18]
+[bt]: (6) xournalpp(_ZN10PreviewJob8drawPageEi+0x14b) [0x55852918908b]
+[bt]: (7) xournalpp(_ZN10PreviewJob3runEv+0x10f) [0x5585291891ef]
+[bt]: (8) xournalpp(_ZN9Scheduler17jobThreadCallbackEPS_+0x149) [0x55852918ba99]
+[bt]: (9) /lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x7b931) [0x7fa47f592931]
+[bt]: (10) /lib/x86_64-linux-gnu/libpthread.so.0(+0x9609) [0x7fa47e604609]
+[bt]: (11) /lib/x86_64-linux-gnu/libc.so.6(clone+0x43) [0x7fa47e0e5293]
+
+
+Try to get a better stracktrace...
+[bt] #1 xournalpp(+0x1daade) [0x55852928aade]
+??:0
+[bt] #2 /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7fa47e009210]
+??:0
+[bt] #3 xournalpp(_ZNK7Element7getTypeEv+0x5) [0x55852925c6d5]
+??:0
+[bt] #4 xournalpp(_ZN12DocumentView11drawElementEP6_cairoP7Element+0x8a) [0x5585292812ea]
+??:0
+[bt] #5 xournalpp(_ZN12DocumentView9drawLayerEP6_cairoP5Layer+0xfc) [0x55852928148c]
+??:0
+[bt] #6 xournalpp(_ZN12DocumentView8drawPageE7PageRefP6_cairobb+0x138) [0x558529281f18]
+??:0
+[bt] #7 xournalpp(_ZN10PreviewJob8drawPageEi+0x14b) [0x55852918908b]
+??:0
+[bt] #8 xournalpp(_ZN10PreviewJob3runEv+0x10f) [0x5585291891ef]
+??:0
+[bt] #9 xournalpp(_ZN9Scheduler17jobThreadCallbackEPS_+0x149) [0x55852918ba99]
+??:0
+[bt] #10 /lib/x86_64-linux-gnu/libglib-2.0.so.0(+0x7b931) [0x7fa47f592931]
+??:0
+[bt] #11 /lib/x86_64-linux-gnu/libpthread.so.0(+0x9609) [0x7fa47e604609]
+??:0
+[bt] #12 /lib/x86_64-linux-gnu/libc.so.6(clone+0x43) [0x7fa47e0e5293]
+??:0

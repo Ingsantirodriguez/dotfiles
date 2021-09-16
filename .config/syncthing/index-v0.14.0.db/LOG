@@ -1,0 +1,702 @@
+=============== Jun 15, 2021 (-03) ===============
+23:56:14.228920 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:56:14.295400 db@open opening
+23:56:14.299753 version@stat F·[] S·0B[] Sc·[]
+23:56:14.340111 db@janitor F·2 G·0
+23:56:14.340136 db@open done T·44.720141ms
+23:56:15.702146 memdb@flush N·46 S·1KiB
+23:56:15.746281 memdb@flush created L0@3 N·46 S·597B "\ndb..ion,v46":"\nla..ime,v19"
+23:56:15.746319 version@stat F·[1] S·597B[597B] Sc·[0.25]
+23:56:15.790648 memdb@flush committed F·1 T·88.472339ms
+23:56:15.790685 journal@remove removed @1
+23:56:15.790704 table@compaction range L-1 "":""
+23:56:15.790717 table@compaction L0·1 -> L1·0 S·597B Q·46
+23:56:15.835292 table@build created L1@4 N·4 S·207B "\ndb..ion,v46":"\nla..ime,v19"
+23:56:15.835323 version@stat F·[0 1] S·207B[0B 207B] Sc·[0.00 0.00]
+23:56:15.879704 table@compaction committed F~ S-390B Ke·0 D·42 T·88.970607ms
+23:56:15.879837 table@remove removed @3
+23:57:14.345281 memdb@flush N·7 S·248B
+23:57:14.395665 memdb@flush created L0@6 N·7 S·287B "\x04de..can,v53":"\npr..ion,v47"
+23:57:14.395708 version@stat F·[1 1] S·494B[287B 207B] Sc·[0.25 0.00]
+23:57:14.440137 memdb@flush committed F·1 T·94.806533ms
+23:57:14.440198 journal@remove removed @2
+23:57:14.440216 table@compaction range L-1 "":""
+23:57:14.440230 table@compaction L0·1 -> L1·1 S·494B Q·53
+23:57:14.484705 table@build created L1@7 N·11 S·384B "\x04de..can,v53":"\npr..ion,v47"
+23:57:14.484742 version@stat F·[0 1] S·384B[0B 384B] Sc·[0.00 0.00]
+23:57:14.529204 table@compaction committed F-1 S-110B Ke·0 D·0 T·88.957332ms
+23:57:14.529309 table@remove removed @6
+23:57:14.529342 table@remove removed @4
+=============== Jun 16, 2021 (-03) ===============
+23:30:42.057397 memdb@flush N·227 S·20KiB
+23:30:42.174525 memdb@flush created L0@9 N·227 S·6KiB "\x00\x00\x00..jpg,v119":"\x11\x14\x98..\xee\xa7L,v55"
+23:30:42.174604 version@stat F·[1 1] S·7KiB[6KiB 384B] Sc·[0.25 0.00]
+23:30:42.230006 memdb@flush committed F·1 T·155.951187ms
+23:30:42.230150 journal@remove removed @5
+23:30:42.230175 table@compaction range L-1 "":""
+23:30:42.230201 table@compaction L0·1 -> L1·1 S·7KiB Q·280
+23:30:42.275079 table@build created L1@10 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+23:30:42.275170 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+23:30:42.385696 table@compaction committed F-1 S-2KiB Ke·0 D·170 T·155.45997ms
+23:30:42.385834 table@remove removed @9
+23:30:42.385908 table@remove removed @7
+=============== Jun 17, 2021 (-03) ===============
+12:30:42.017249 memdb@flush N·27 S·1KiB
+12:30:42.059507 memdb@flush created L0@12 N·27 S·477B "\x04de..can,v307":"\nla..ime,v281"
+12:30:42.059562 version@stat F·[1 1] S·4KiB[477B 4KiB] Sc·[0.25 0.00]
+12:30:42.137335 memdb@flush committed F·1 T·109.841159ms
+12:30:42.137453 journal@remove removed @8
+12:30:42.137487 table@compaction range L-1 "":""
+12:30:42.137550 table@compaction L0·1 -> L1·1 S·4KiB Q·307
+12:30:42.182788 table@build created L1@13 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+12:30:42.183202 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+12:30:42.226430 table@compaction committed F-1 S-477B Ke·0 D·27 T·88.750188ms
+12:30:42.226621 table@remove removed @12
+12:30:42.226688 table@remove removed @10
+=============== Jun 18, 2021 (-03) ===============
+01:30:42.013369 memdb@flush N·27 S·1KiB
+01:30:42.048857 memdb@flush created L0@15 N·27 S·473B "\x04de..can,v333":"\nla..ime,v308"
+01:30:42.048917 version@stat F·[1 1] S·4KiB[473B 4KiB] Sc·[0.25 0.00]
+01:30:42.093227 memdb@flush committed F·1 T·79.797342ms
+01:30:42.093301 journal@remove removed @11
+01:30:42.093324 table@compaction range L-1 "":""
+01:30:42.093349 table@compaction L0·1 -> L1·1 S·4KiB Q·334
+01:30:42.149067 table@build created L1@16 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+01:30:42.149129 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+01:30:42.193433 table@compaction committed F-1 S-473B Ke·0 D·27 T·100.05806ms
+01:30:42.193569 table@remove removed @15
+01:30:42.193608 table@remove removed @13
+14:30:42.006970 memdb@flush N·28 S·1KiB
+14:30:42.062591 memdb@flush created L0@18 N·28 S·477B "\x04de..can,v362":"\nla..ime,v335"
+14:30:42.062703 version@stat F·[1 1] S·4KiB[477B 4KiB] Sc·[0.25 0.00]
+14:30:42.107025 memdb@flush committed F·1 T·99.986337ms
+14:30:42.107103 journal@remove removed @14
+14:30:42.107128 table@compaction range L-1 "":""
+14:30:42.107164 table@compaction L0·1 -> L1·1 S·4KiB Q·362
+14:30:42.162806 table@build created L1@19 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+14:30:42.162878 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+14:30:42.207146 table@compaction committed F-1 S-481B Ke·0 D·28 T·99.94926ms
+14:30:42.207284 table@remove removed @18
+14:30:42.207332 table@remove removed @16
+=============== Jun 19, 2021 (-03) ===============
+05:09:05.638241 memdb@flush N·28 S·1KiB
+05:09:05.687978 memdb@flush created L0@21 N·28 S·485B "\x04de..can,v389":"\nla..ime,v363"
+05:09:05.688115 version@stat F·[1 1] S·4KiB[485B 4KiB] Sc·[0.25 0.00]
+05:09:05.754485 memdb@flush committed F·1 T·104.997927ms
+05:09:05.754651 journal@remove removed @17
+05:09:05.754717 table@compaction range L-1 "":""
+05:09:05.754771 table@compaction L0·1 -> L1·1 S·4KiB Q·390
+05:09:05.810280 table@build created L1@22 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+05:09:05.810386 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+05:09:05.886981 table@compaction committed F-1 S-481B Ke·0 D·28 T·110.851112ms
+05:09:05.887277 table@remove removed @21
+05:09:05.887371 table@remove removed @19
+=============== Jun 20, 2021 (-03) ===============
+23:31:34.072777 memdb@flush N·28 S·1KiB
+23:31:34.150599 memdb@flush created L0@24 N·28 S·482B "\x04de..can,v418":"\nla..ime,v391"
+23:31:34.150695 version@stat F·[1 1] S·4KiB[482B 4KiB] Sc·[0.25 0.00]
+23:31:34.220709 memdb@flush committed F·1 T·127.311735ms
+23:31:34.220884 journal@remove removed @20
+23:31:34.220933 table@compaction range L-1 "":""
+23:31:34.220972 table@compaction L0·1 -> L1·1 S·4KiB Q·418
+23:31:34.265315 table@build created L1@25 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+23:31:34.265427 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+23:31:34.320714 table@compaction committed F-1 S-482B Ke·0 D·28 T·99.698625ms
+23:31:34.320924 table@remove removed @24
+23:31:34.321039 table@remove removed @22
+=============== Jun 21, 2021 (-03) ===============
+12:31:34.009229 memdb@flush N·28 S·1KiB
+12:31:34.069628 memdb@flush created L0@27 N·28 S·482B "\x04de..can,v445":"\nla..ime,v419"
+12:31:34.069749 version@stat F·[1 1] S·4KiB[482B 4KiB] Sc·[0.25 0.00]
+12:31:34.125189 memdb@flush committed F·1 T·115.858391ms
+12:31:34.125368 journal@remove removed @23
+12:31:34.125418 table@compaction range L-1 "":""
+12:31:34.125453 table@compaction L0·1 -> L1·1 S·4KiB Q·446
+12:31:34.169694 table@build created L1@28 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+12:31:34.169824 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+12:31:34.225145 table@compaction committed F-1 S-480B Ke·0 D·28 T·99.635585ms
+12:31:34.225401 table@remove removed @27
+12:31:34.225518 table@remove removed @25
+=============== Jun 22, 2021 (-03) ===============
+01:31:34.048585 memdb@flush N·27 S·1KiB
+01:31:34.094965 memdb@flush created L0@30 N·27 S·478B "\x04de..can,v472":"\nla..ime,v447"
+01:31:34.095017 version@stat F·[1 1] S·4KiB[478B 4KiB] Sc·[0.25 0.00]
+01:31:34.139531 memdb@flush committed F·1 T·90.874653ms
+01:31:34.139678 journal@remove removed @26
+01:31:34.139747 table@compaction range L-1 "":""
+01:31:34.139809 table@compaction L0·1 -> L1·1 S·4KiB Q·473
+01:31:34.184160 table@build created L1@31 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+01:31:34.184257 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+01:31:34.239627 table@compaction committed F-1 S-480B Ke·0 D·27 T·99.745573ms
+01:31:34.239885 table@remove removed @30
+01:31:34.239979 table@remove removed @28
+23:15:41.013687 memdb@flush N·26 S·1KiB
+23:15:41.069777 memdb@flush created L0@33 N·26 S·465B "\x04de..can,v498":"\nla..ime,v474"
+23:15:41.069880 version@stat F·[1 1] S·4KiB[465B 4KiB] Sc·[0.25 0.00]
+23:15:41.125265 memdb@flush committed F·1 T·97.738761ms
+23:15:41.125405 journal@remove removed @29
+23:15:41.125466 table@compaction range L-1 "":""
+23:15:41.125515 table@compaction L0·1 -> L1·1 S·4KiB Q·499
+23:15:41.170110 table@build created L1@34 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+23:15:41.170218 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+23:15:41.214501 table@compaction committed F-1 S-467B Ke·0 D·26 T·88.937688ms
+23:15:41.214683 table@remove removed @33
+23:15:41.214791 table@remove removed @31
+=============== Jun 23, 2021 (-03) ===============
+12:15:41.037603 memdb@flush N·28 S·1KiB
+12:15:41.101831 memdb@flush created L0@36 N·28 S·487B "\x04de..can,v527":"\nla..ime,v500"
+12:15:41.101937 version@stat F·[1 1] S·4KiB[487B 4KiB] Sc·[0.25 0.00]
+12:15:41.157718 memdb@flush committed F·1 T·100.153098ms
+12:15:41.158200 journal@remove removed @32
+12:15:41.158356 table@compaction range L-1 "":""
+12:15:41.158524 table@compaction L0·1 -> L1·1 S·4KiB Q·527
+12:15:41.213023 table@build created L1@37 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+12:15:41.213274 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+12:15:41.257573 table@compaction committed F-1 S-492B Ke·0 D·28 T·98.955691ms
+12:15:41.257946 table@remove removed @36
+12:15:41.258149 table@remove removed @34
+=============== Jun 25, 2021 (-03) ===============
+04:01:54.037024 memdb@flush N·27 S·1KiB
+04:01:54.129046 memdb@flush created L0@39 N·27 S·479B "\x04de..can,v554":"\nla..ime,v528"
+04:01:54.129149 version@stat F·[1 1] S·4KiB[479B 4KiB] Sc·[0.25 0.00]
+04:01:54.191869 memdb@flush committed F·1 T·131.733419ms
+04:01:54.192025 journal@remove removed @35
+04:01:54.192087 table@compaction range L-1 "":""
+04:01:54.192146 table@compaction L0·1 -> L1·1 S·4KiB Q·554
+04:01:54.237696 table@build created L1@40 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+04:01:54.237814 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+04:01:54.282052 table@compaction committed F-1 S-476B Ke·0 D·27 T·89.839727ms
+04:01:54.282304 table@remove removed @39
+04:01:54.282424 table@remove removed @37
+=============== Jun 29, 2021 (-03) ===============
+16:49:41.184756 memdb@flush N·27 S·1KiB
+16:49:41.253753 memdb@flush created L0@42 N·27 S·471B "\x04de..can,v580":"\nla..ime,v555"
+16:49:41.253870 version@stat F·[1 1] S·4KiB[471B 4KiB] Sc·[0.25 0.00]
+16:49:41.309278 memdb@flush committed F·1 T·98.184846ms
+16:49:41.309466 journal@remove removed @38
+16:49:41.309548 table@compaction range L-1 "":""
+16:49:41.309640 table@compaction L0·1 -> L1·1 S·4KiB Q·581
+16:49:41.353881 table@build created L1@43 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+16:49:41.354027 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+16:49:41.415777 table@compaction committed F-1 S-470B Ke·0 D·27 T·88.717348ms
+16:49:41.416084 table@remove removed @42
+16:49:41.416211 table@remove removed @40
+=============== Jun 30, 2021 (-03) ===============
+05:49:41.032139 memdb@flush N·27 S·1KiB
+05:49:41.129849 memdb@flush created L0@45 N·27 S·468B "\x04de..can,v608":"\nla..ime,v582"
+05:49:41.129999 version@stat F·[1 1] S·4KiB[468B 4KiB] Sc·[0.25 0.00]
+05:49:41.185194 memdb@flush committed F·1 T·124.632817ms
+05:49:41.185348 journal@remove removed @41
+05:49:41.185415 table@compaction range L-1 "":""
+05:49:41.185492 table@compaction L0·1 -> L1·1 S·4KiB Q·608
+05:49:41.229804 table@build created L1@46 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+05:49:41.229926 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+05:49:41.274353 table@compaction committed F-1 S-468B Ke·0 D·27 T·88.791156ms
+05:49:41.274623 table@remove removed @45
+05:49:41.274739 table@remove removed @43
+21:06:12.038960 memdb@flush N·26 S·1KiB
+21:06:12.192265 memdb@flush created L0@48 N·26 S·456B "\x04de..can,v633":"\nla..ime,v609"
+21:06:12.192314 version@stat F·[1 1] S·4KiB[456B 4KiB] Sc·[0.25 0.00]
+21:06:12.327133 memdb@flush committed F·1 T·267.318871ms
+21:06:12.327198 journal@remove removed @44
+21:06:12.327442 table@compaction range L-1 "":""
+21:06:12.327461 table@compaction L0·1 -> L1·1 S·4KiB Q·634
+21:06:12.394377 table@build created L1@49 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+21:06:12.394433 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+21:06:12.438783 table@compaction committed F-1 S-456B Ke·0 D·26 T·111.303217ms
+21:06:12.438845 table@remove removed @48
+21:06:12.438879 table@remove removed @46
+=============== Jul 1, 2021 (-03) ===============
+10:06:12.013394 memdb@flush N·26 S·1KiB
+10:06:12.083078 memdb@flush created L0@51 N·26 S·454B "\x04de..can,v660":"\nla..ime,v635"
+10:06:12.083175 version@stat F·[1 1] S·4KiB[454B 4KiB] Sc·[0.25 0.00]
+10:06:12.149621 memdb@flush committed F·1 T·111.303281ms
+10:06:12.149684 journal@remove removed @47
+10:06:12.149705 table@compaction range L-1 "":""
+10:06:12.149729 table@compaction L0·1 -> L1·1 S·4KiB Q·660
+10:06:12.194340 table@build created L1@52 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+10:06:12.194410 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+10:06:12.249806 table@compaction committed F-1 S-455B Ke·0 D·26 T·100.057958ms
+10:06:12.249908 table@remove removed @51
+10:06:12.249940 table@remove removed @49
+=============== Jul 2, 2021 (-03) ===============
+03:30:45.029390 memdb@flush N·26 S·1KiB
+03:30:45.120695 memdb@flush created L0@54 N·26 S·459B "\x04de..can,v685":"\nla..ime,v661"
+03:30:45.120841 version@stat F·[1 1] S·4KiB[459B 4KiB] Sc·[0.25 0.00]
+03:30:45.187176 memdb@flush committed F·1 T·116.370162ms
+03:30:45.187350 journal@remove removed @50
+03:30:45.187411 table@compaction range L-1 "":""
+03:30:45.187469 table@compaction L0·1 -> L1·1 S·4KiB Q·686
+03:30:45.242974 table@build created L1@55 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+03:30:45.243094 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+03:30:45.298568 table@compaction committed F-1 S-458B Ke·0 D·26 T·111.045546ms
+03:30:45.298797 table@remove removed @54
+03:30:45.298892 table@remove removed @52
+16:30:45.009658 memdb@flush N·27 S·1KiB
+16:30:45.055952 memdb@flush created L0@57 N·27 S·471B "\x04de..can,v712":"\nla..ime,v687"
+16:30:45.056086 version@stat F·[1 1] S·4KiB[471B 4KiB] Sc·[0.25 0.00]
+16:30:45.100230 memdb@flush committed F·1 T·90.475765ms
+16:30:45.100382 journal@remove removed @53
+16:30:45.100440 table@compaction range L-1 "":""
+16:30:45.100486 table@compaction L0·1 -> L1·1 S·4KiB Q·713
+16:30:45.145023 table@build created L1@58 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+16:30:45.145145 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+16:30:45.189380 table@compaction committed F-1 S-471B Ke·0 D·27 T·88.851885ms
+16:30:45.189578 table@remove removed @57
+16:30:45.189681 table@remove removed @55
+=============== Jul 3, 2021 (-03) ===============
+05:30:45.009734 memdb@flush N·27 S·1KiB
+05:30:45.064204 memdb@flush created L0@60 N·27 S·467B "\x04de..can,v739":"\nla..ime,v714"
+05:30:45.064305 version@stat F·[1 1] S·4KiB[467B 4KiB] Sc·[0.25 0.00]
+05:30:45.119503 memdb@flush committed F·1 T·109.672864ms
+05:30:45.119642 journal@remove removed @56
+05:30:45.119702 table@compaction range L-1 "":""
+05:30:45.119749 table@compaction L0·1 -> L1·1 S·4KiB Q·740
+05:30:45.164173 table@build created L1@61 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+05:30:45.164283 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+05:30:45.219740 table@compaction committed F-1 S-468B Ke·0 D·27 T·99.945687ms
+05:30:45.219968 table@remove removed @60
+05:30:45.220084 table@remove removed @58
+18:30:45.019670 memdb@flush N·27 S·1KiB
+18:30:45.071318 memdb@flush created L0@63 N·27 S·467B "\x04de..can,v767":"\nla..ime,v741"
+18:30:45.071438 version@stat F·[1 1] S·4KiB[467B 4KiB] Sc·[0.25 0.00]
+18:30:45.126950 memdb@flush committed F·1 T·107.158975ms
+18:30:45.127090 journal@remove removed @59
+18:30:45.127156 table@compaction range L-1 "":""
+18:30:45.127212 table@compaction L0·1 -> L1·1 S·4KiB Q·767
+18:30:45.182584 table@build created L1@64 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+18:30:45.182705 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+18:30:45.238239 table@compaction committed F-1 S-467B Ke·0 D·27 T·110.971967ms
+18:30:45.238503 table@remove removed @63
+18:30:45.238602 table@remove removed @61
+=============== Jul 4, 2021 (-03) ===============
+07:30:45.029529 memdb@flush N·27 S·1KiB
+07:30:45.066116 memdb@flush created L0@66 N·27 S·476B "\x04de..can,v794":"\nla..ime,v768"
+07:30:45.066225 version@stat F·[1 1] S·4KiB[476B 4KiB] Sc·[0.25 0.00]
+07:30:45.110507 memdb@flush committed F·1 T·80.856665ms
+07:30:45.110660 journal@remove removed @62
+07:30:45.110723 table@compaction range L-1 "":""
+07:30:45.110776 table@compaction L0·1 -> L1·1 S·4KiB Q·794
+07:30:45.155100 table@build created L1@67 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+07:30:45.155233 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+07:30:45.199544 table@compaction committed F-1 S-472B Ke·0 D·27 T·88.715252ms
+07:30:45.199777 table@remove removed @66
+07:30:45.199881 table@remove removed @64
+20:30:45.029574 memdb@flush N·26 S·1KiB
+20:30:45.071496 memdb@flush created L0@69 N·26 S·459B "\x04de..can,v819":"\nla..ime,v795"
+20:30:45.071622 version@stat F·[1 1] S·4KiB[459B 4KiB] Sc·[0.25 0.00]
+20:30:45.126892 memdb@flush committed F·1 T·97.220196ms
+20:30:45.127037 journal@remove removed @65
+20:30:45.127095 table@compaction range L-1 "":""
+20:30:45.127162 table@compaction L0·1 -> L1·1 S·4KiB Q·820
+20:30:45.182618 table@build created L1@70 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+20:30:45.182717 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+20:30:45.238146 table@compaction committed F-1 S-458B Ke·0 D·26 T·110.906956ms
+20:30:45.238434 table@remove removed @69
+20:30:45.238532 table@remove removed @67
+=============== Jul 5, 2021 (-03) ===============
+09:30:45.016693 memdb@flush N·28 S·1KiB
+09:30:45.055995 memdb@flush created L0@72 N·28 S·476B "\x04de..can,v848":"\nla..ime,v821"
+09:30:45.056123 version@stat F·[1 1] S·4KiB[476B 4KiB] Sc·[0.25 0.00]
+09:30:45.137839 memdb@flush committed F·1 T·121.075473ms
+09:30:45.137991 journal@remove removed @68
+09:30:45.138060 table@compaction range L-1 "":""
+09:30:45.138122 table@compaction L0·1 -> L1·1 S·4KiB Q·848
+09:30:45.189214 table@build created L1@73 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+09:30:45.189353 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+09:30:45.255739 table@compaction committed F-1 S-476B Ke·0 D·28 T·117.531583ms
+09:30:45.255944 table@remove removed @72
+09:30:45.256058 table@remove removed @70
+22:30:45.029723 memdb@flush N·26 S·1KiB
+22:30:45.086370 memdb@flush created L0@75 N·26 S·459B "\x04de..can,v873":"\nla..ime,v849"
+22:30:45.086489 version@stat F·[1 1] S·4KiB[459B 4KiB] Sc·[0.25 0.00]
+22:30:45.141766 memdb@flush committed F·1 T·91.673768ms
+22:30:45.141910 journal@remove removed @71
+22:30:45.141975 table@compaction range L-1 "":""
+22:30:45.142041 table@compaction L0·1 -> L1·1 S·4KiB Q·874
+22:30:45.186352 table@build created L1@76 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+22:30:45.186437 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+22:30:45.230935 table@compaction committed F-1 S-459B Ke·0 D·26 T·88.844655ms
+22:30:45.231159 table@remove removed @75
+22:30:45.231296 table@remove removed @73
+=============== Jul 6, 2021 (-03) ===============
+11:30:45.032153 memdb@flush N·32 S·1KiB
+11:30:45.090812 memdb@flush created L0@78 N·32 S·631B "\x03CS..ion,v882":"\nla..ime,v875"
+11:30:45.090957 version@stat F·[1 1] S·4KiB[631B 4KiB] Sc·[0.25 0.00]
+11:30:45.146254 memdb@flush committed F·1 T·94.096518ms
+11:30:45.146412 journal@remove removed @74
+11:30:45.146475 table@compaction range L-1 "":""
+11:30:45.146549 table@compaction L0·1 -> L1·1 S·4KiB Q·906
+11:30:45.191222 table@build created L1@79 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+11:30:45.191330 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+11:30:45.268660 table@compaction committed F-1 S-631B Ke·0 D·32 T·122.053315ms
+11:30:45.268870 table@remove removed @78
+11:30:45.268980 table@remove removed @76
+=============== Jul 7, 2021 (-03) ===============
+20:21:00.036371 memdb@flush N·26 S·1KiB
+20:21:00.107051 memdb@flush created L0@81 N·26 S·460B "\x04de..can,v931":"\nla..ime,v907"
+20:21:00.107090 version@stat F·[1 1] S·4KiB[460B 4KiB] Sc·[0.25 0.00]
+20:21:00.179241 memdb@flush committed F·1 T·118.375044ms
+20:21:00.179306 journal@remove removed @77
+20:21:00.179328 table@compaction range L-1 "":""
+20:21:00.179347 table@compaction L0·1 -> L1·1 S·4KiB Q·932
+20:21:00.223889 table@build created L1@82 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+20:21:00.223923 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+20:21:00.298393 table@compaction committed F-1 S-461B Ke·0 D·26 T·100.012776ms
+20:21:00.298466 table@remove removed @81
+20:21:00.298499 table@remove removed @79
+=============== Jul 8, 2021 (-03) ===============
+09:21:00.011735 memdb@flush N·26 S·1KiB
+09:21:00.083389 memdb@flush created L0@84 N·26 S·459B "\x04de..can,v957":"\nla..ime,v933"
+09:21:00.083431 version@stat F·[1 1] S·4KiB[459B 4KiB] Sc·[0.25 0.00]
+09:21:00.194330 memdb@flush committed F·1 T·182.517021ms
+09:21:00.194386 journal@remove removed @80
+09:21:00.194407 table@compaction range L-1 "":""
+09:21:00.194426 table@compaction L0·1 -> L1·1 S·4KiB Q·958
+09:21:00.250266 table@build created L1@85 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+09:21:00.250302 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+09:21:00.294617 table@compaction committed F-1 S-463B Ke·0 D·26 T·100.17522ms
+09:21:00.294707 table@remove removed @84
+09:21:00.294733 table@remove removed @82
+22:21:00.015965 memdb@flush N·28 S·1KiB
+22:21:00.055698 memdb@flush created L0@87 N·28 S·483B "\x04de..can,v985":"\nla..ime,v959"
+22:21:00.055780 version@stat F·[1 1] S·4KiB[483B 4KiB] Sc·[0.25 0.00]
+22:21:00.111085 memdb@flush committed F·1 T·95.0411ms
+22:21:00.111198 journal@remove removed @83
+22:21:00.111225 table@compaction range L-1 "":""
+22:21:00.111258 table@compaction L0·1 -> L1·1 S·4KiB Q·986
+22:21:00.155700 table@build created L1@88 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+22:21:00.155734 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+22:21:00.211194 table@compaction committed F-1 S-479B Ke·0 D·28 T·99.916438ms
+22:21:00.211301 table@remove removed @87
+22:21:00.211344 table@remove removed @85
+=============== Jul 9, 2021 (-03) ===============
+11:21:00.007807 memdb@flush N·27 S·1KiB
+11:21:00.054465 memdb@flush created L0@90 N·27 S·471B "\x04de..can,v1013":"\nla..ime,v987"
+11:21:00.054509 version@stat F·[1 1] S·4KiB[471B 4KiB] Sc·[0.25 0.00]
+11:21:00.098857 memdb@flush committed F·1 T·90.986408ms
+11:21:00.098921 journal@remove removed @86
+11:21:00.098943 table@compaction range L-1 "":""
+11:21:00.098973 table@compaction L0·1 -> L1·1 S·4KiB Q·1013
+11:21:00.143577 table@build created L1@91 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+11:21:00.143610 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+11:21:00.188037 table@compaction committed F-1 S-477B Ke·0 D·27 T·89.044099ms
+11:21:00.188165 table@remove removed @90
+11:21:00.188196 table@remove removed @88
+=============== Jul 10, 2021 (-03) ===============
+05:18:40.094085 memdb@flush N·27 S·1KiB
+05:18:40.220340 memdb@flush created L0@93 N·27 S·481B "\x04de..can,v1040":"\nla..ime,v1014"
+05:18:40.220444 version@stat F·[1 1] S·4KiB[481B 4KiB] Sc·[0.25 0.00]
+05:18:40.275925 memdb@flush committed F·1 T·146.794438ms
+05:18:40.276113 journal@remove removed @89
+05:18:40.276178 table@compaction range L-1 "":""
+05:18:40.276226 table@compaction L0·1 -> L1·1 S·4KiB Q·1040
+05:18:40.331613 table@build created L1@94 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+05:18:40.331742 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+05:18:40.376042 table@compaction committed F-1 S-474B Ke·0 D·27 T·99.743634ms
+05:18:40.376245 table@remove removed @93
+05:18:40.376361 table@remove removed @91
+18:18:40.106123 memdb@flush N·27 S·1KiB
+18:18:40.238228 memdb@flush created L0@96 N·27 S·469B "\x04de..can,v1066":"\nla..ime,v1041"
+18:18:40.238346 version@stat F·[1 1] S·4KiB[469B 4KiB] Sc·[0.25 0.00]
+18:18:40.310361 memdb@flush committed F·1 T·163.349379ms
+18:18:40.310524 journal@remove removed @92
+18:18:40.310606 table@compaction range L-1 "":""
+18:18:40.310665 table@compaction L0·1 -> L1·1 S·4KiB Q·1067
+18:18:40.355025 table@build created L1@97 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+18:18:40.355148 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+18:18:40.410492 table@compaction committed F-1 S-469B Ke·0 D·27 T·99.767318ms
+18:18:40.410730 table@remove removed @96
+18:18:40.410845 table@remove removed @94
+=============== Jul 11, 2021 (-03) ===============
+07:18:40.028559 memdb@flush N·26 S·1KiB
+07:18:40.080700 memdb@flush created L0@99 N·26 S·453B "\x04de..can,v1092":"\nla..ime,v1068"
+07:18:40.080815 version@stat F·[1 1] S·4KiB[453B 4KiB] Sc·[0.25 0.00]
+07:18:40.136177 memdb@flush committed F·1 T·93.909243ms
+07:18:40.136322 journal@remove removed @95
+07:18:40.136373 table@compaction range L-1 "":""
+07:18:40.136413 table@compaction L0·1 -> L1·1 S·4KiB Q·1093
+07:18:40.180843 table@build created L1@100 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+07:18:40.180931 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+07:18:40.225281 table@compaction committed F-1 S-456B Ke·0 D·26 T·88.816455ms
+07:18:40.225520 table@remove removed @99
+07:18:40.225617 table@remove removed @97
+20:18:40.076888 memdb@flush N·26 S·1KiB
+20:18:40.170777 memdb@flush created L0@102 N·26 S·459B "\x04de..can,v1119":"\nla..ime,v1094"
+20:18:40.170887 version@stat F·[1 1] S·4KiB[459B 4KiB] Sc·[0.25 0.00]
+20:18:40.227195 memdb@flush committed F·1 T·122.11163ms
+20:18:40.227361 journal@remove removed @98
+20:18:40.227413 table@compaction range L-1 "":""
+20:18:40.227456 table@compaction L0·1 -> L1·1 S·4KiB Q·1119
+20:18:40.271795 table@build created L1@103 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+20:18:40.271958 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+20:18:40.316166 table@compaction committed F-1 S-456B Ke·0 D·26 T·88.65526ms
+20:18:40.316424 table@remove removed @102
+20:18:40.316530 table@remove removed @100
+=============== Jul 12, 2021 (-03) ===============
+09:18:40.016601 memdb@flush N·27 S·1KiB
+09:18:40.073862 memdb@flush created L0@105 N·27 S·471B "\x04de..can,v1145":"\nla..ime,v1120"
+09:18:40.074020 version@stat F·[1 1] S·4KiB[471B 4KiB] Sc·[0.25 0.00]
+09:18:40.129346 memdb@flush committed F·1 T·101.329127ms
+09:18:40.129528 journal@remove removed @101
+09:18:40.129582 table@compaction range L-1 "":""
+09:18:40.129655 table@compaction L0·1 -> L1·1 S·4KiB Q·1146
+09:18:40.185128 table@build created L1@106 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+09:18:40.185223 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+09:18:40.229444 table@compaction committed F-1 S-475B Ke·0 D·27 T·99.737967ms
+09:18:40.229703 table@remove removed @105
+09:18:40.229810 table@remove removed @103
+=============== Jul 13, 2021 (-03) ===============
+10:47:01.132275 memdb@flush N·28 S·1KiB
+10:47:01.188563 memdb@flush created L0@108 N·28 S·480B "\x04de..can,v1173":"\nla..ime,v1147"
+10:47:01.188612 version@stat F·[1 1] S·4KiB[480B 4KiB] Sc·[0.25 0.00]
+10:47:01.266301 memdb@flush committed F·1 T·120.651224ms
+10:47:01.286027 journal@remove removed @104
+10:47:01.286106 table@compaction range L-1 "":""
+10:47:01.286155 table@compaction L0·1 -> L1·1 S·4KiB Q·1174
+10:47:01.333131 table@build created L1@109 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+10:47:01.333262 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+10:47:01.399820 table@compaction committed F-1 S-476B Ke·0 D·28 T·113.567773ms
+10:47:01.400048 table@remove removed @108
+10:47:01.400142 table@remove removed @106
+23:47:01.052179 memdb@flush N·27 S·1KiB
+23:47:01.125092 memdb@flush created L0@111 N·27 S·468B "\x04de..can,v1200":"\nla..ime,v1175"
+23:47:01.125204 version@stat F·[1 1] S·4KiB[468B 4KiB] Sc·[0.25 0.00]
+23:47:01.212692 memdb@flush committed F·1 T·111.302753ms
+23:47:01.213288 journal@remove removed @107
+23:47:01.213372 table@compaction range L-1 "":""
+23:47:01.213421 table@compaction L0·1 -> L1·1 S·4KiB Q·1201
+23:47:01.269577 table@build created L1@112 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+23:47:01.269741 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+23:47:01.425686 table@compaction committed F-1 S-469B Ke·0 D·27 T·212.202914ms
+23:47:01.425951 table@remove removed @111
+23:47:01.426061 table@remove removed @109
+=============== Jul 14, 2021 (-03) ===============
+12:47:01.115001 memdb@flush N·27 S·1KiB
+12:47:01.177332 memdb@flush created L0@114 N·27 S·468B "\x04de..can,v1227":"\nla..ime,v1202"
+12:47:01.177509 version@stat F·[1 1] S·4KiB[468B 4KiB] Sc·[0.25 0.00]
+12:47:01.243800 memdb@flush committed F·1 T·109.930814ms
+12:47:01.260995 journal@remove removed @110
+12:47:01.261088 table@compaction range L-1 "":""
+12:47:01.261153 table@compaction L0·1 -> L1·1 S·4KiB Q·1228
+12:47:01.299377 table@build created L1@115 N·68 S·4KiB "\x00\x00\x00..jpg,v119":"\x0e\x00\x00..jpg,v150"
+12:47:01.299489 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+12:47:01.354802 table@compaction committed F-1 S-469B Ke·0 D·27 T·93.596651ms
+12:47:01.355178 table@remove removed @114
+12:47:01.355267 table@remove removed @112
+=============== Jul 15, 2021 (-03) ===============
+04:11:29.120893 memdb@flush N·600 S·57KiB
+04:11:29.311427 memdb@flush created L0@117 N·600 S·21KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..pdf,v1426"
+04:11:29.311549 version@stat F·[1 1] S·25KiB[21KiB 4KiB] Sc·[0.25 0.00]
+04:11:29.383763 memdb@flush committed F·1 T·220.716369ms
+04:11:29.451276 journal@remove removed @113
+04:11:29.451410 table@compaction range L-1 "":""
+04:11:29.451470 table@compaction L0·1 -> L1·1 S·25KiB Q·1828
+04:11:29.495140 table@build created L1@118 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+04:11:29.495290 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+04:11:29.550586 table@compaction committed F-1 S-4KiB Ke·0 D·414 T·99.016969ms
+04:11:29.550840 table@remove removed @117
+04:11:29.551256 table@remove removed @115
+17:11:29.107203 memdb@flush N·25 S·1023B
+17:11:29.211675 memdb@flush created L0@120 N·25 S·452B "\x04de..can,v1852":"\nla..ime,v1829"
+17:11:29.211785 version@stat F·[1 1] S·21KiB[452B 20KiB] Sc·[0.25 0.00]
+17:11:29.291687 memdb@flush committed F·1 T·140.366318ms
+17:11:29.291852 journal@remove removed @116
+17:11:29.291922 table@compaction range L-1 "":""
+17:11:29.291981 table@compaction L0·1 -> L1·1 S·21KiB Q·1853
+17:11:29.355636 table@build created L1@121 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+17:11:29.355749 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+17:11:29.400109 table@compaction committed F-1 S-449B Ke·0 D·25 T·108.081276ms
+17:11:29.400295 table@remove removed @120
+17:11:29.400403 table@remove removed @118
+=============== Jul 16, 2021 (-03) ===============
+06:11:29.079668 memdb@flush N·27 S·1KiB
+06:11:29.211652 memdb@flush created L0@123 N·27 S·468B "\x04de..can,v1879":"\nla..ime,v1854"
+06:11:29.211775 version@stat F·[1 1] S·21KiB[468B 20KiB] Sc·[0.25 0.00]
+06:11:29.274141 memdb@flush committed F·1 T·128.503029ms
+06:11:29.274306 journal@remove removed @119
+06:11:29.274363 table@compaction range L-1 "":""
+06:11:29.274399 table@compaction L0·1 -> L1·1 S·21KiB Q·1880
+06:11:29.318935 table@build created L1@124 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+06:11:29.319036 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+06:11:29.363157 table@compaction committed F-1 S-468B Ke·0 D·27 T·88.708995ms
+06:11:29.363397 table@remove removed @123
+06:11:29.363504 table@remove removed @121
+19:11:29.014740 memdb@flush N·26 S·1KiB
+19:11:29.054987 memdb@flush created L0@126 N·26 S·459B "\x04de..can,v1906":"\nla..ime,v1881"
+19:11:29.055091 version@stat F·[1 1] S·21KiB[459B 20KiB] Sc·[0.25 0.00]
+19:11:29.099357 memdb@flush committed F·1 T·84.513102ms
+19:11:29.099519 journal@remove removed @122
+19:11:29.099579 table@compaction range L-1 "":""
+19:11:29.099624 table@compaction L0·1 -> L1·1 S·21KiB Q·1906
+19:11:29.144109 table@build created L1@127 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+19:11:29.144209 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+19:11:29.188467 table@compaction committed F-1 S-459B Ke·0 D·26 T·88.791818ms
+19:11:29.188691 table@remove removed @126
+19:11:29.188794 table@remove removed @124
+=============== Jul 17, 2021 (-03) ===============
+08:11:29.043704 memdb@flush N·28 S·1KiB
+08:11:29.132823 memdb@flush created L0@129 N·28 S·482B "\x04de..can,v1934":"\nla..ime,v1907"
+08:11:29.132949 version@stat F·[1 1] S·21KiB[482B 20KiB] Sc·[0.25 0.00]
+08:11:29.177191 memdb@flush committed F·1 T·133.391494ms
+08:11:29.177351 journal@remove removed @125
+08:11:29.177405 table@compaction range L-1 "":""
+08:11:29.177478 table@compaction L0·1 -> L1·1 S·21KiB Q·1934
+08:11:29.233034 table@build created L1@130 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+08:11:29.233213 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+08:11:29.277382 table@compaction committed F-1 S-482B Ke·0 D·28 T·99.8381ms
+08:11:29.277666 table@remove removed @129
+08:11:29.277770 table@remove removed @127
+21:11:29.077311 memdb@flush N·28 S·1KiB
+21:11:29.178358 memdb@flush created L0@132 N·28 S·482B "\x04de..can,v1962":"\nla..ime,v1935"
+21:11:29.178639 version@stat F·[1 1] S·21KiB[482B 20KiB] Sc·[0.25 0.00]
+21:11:29.248288 memdb@flush committed F·1 T·128.592884ms
+21:11:29.269102 journal@remove removed @128
+21:11:29.269171 table@compaction range L-1 "":""
+21:11:29.269208 table@compaction L0·1 -> L1·1 S·21KiB Q·1962
+21:11:29.326176 table@build created L1@133 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+21:11:29.326272 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+21:11:29.370654 table@compaction committed F-1 S-483B Ke·0 D·28 T·101.397821ms
+21:11:29.370867 table@remove removed @132
+21:11:29.371006 table@remove removed @130
+=============== Jul 18, 2021 (-03) ===============
+10:11:29.044821 memdb@flush N·27 S·1KiB
+10:11:29.083928 memdb@flush created L0@135 N·27 S·485B "\x04de..can,v1989":"\nla..ime,v1963"
+10:11:29.083967 version@stat F·[1 1] S·21KiB[485B 20KiB] Sc·[0.25 0.00]
+10:11:29.139658 memdb@flush committed F·1 T·94.771433ms
+10:11:29.139824 journal@remove removed @131
+10:11:29.139873 table@compaction range L-1 "":""
+10:11:29.139906 table@compaction L0·1 -> L1·1 S·21KiB Q·1989
+10:11:29.195296 table@build created L1@136 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+10:11:29.195414 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+10:11:29.250766 table@compaction committed F-1 S-484B Ke·0 D·27 T·110.792399ms
+10:11:29.251000 table@remove removed @135
+10:11:29.251102 table@remove removed @133
+=============== Jul 19, 2021 (-03) ===============
+00:50:06.103306 memdb@flush N·27 S·1KiB
+00:50:06.192532 memdb@flush created L0@138 N·27 S·473B "\x04de..can,v2016":"\nla..ime,v1990"
+00:50:06.192636 version@stat F·[1 1] S·21KiB[473B 20KiB] Sc·[0.25 0.00]
+00:50:06.260304 memdb@flush committed F·1 T·139.900359ms
+00:50:06.260449 journal@remove removed @134
+00:50:06.260514 table@compaction range L-1 "":""
+00:50:06.260575 table@compaction L0·1 -> L1·1 S·21KiB Q·2016
+00:50:06.304893 table@build created L1@139 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+00:50:06.304986 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+00:50:06.349320 table@compaction committed F-1 S-473B Ke·0 D·27 T·88.693451ms
+00:50:06.349552 table@remove removed @138
+00:50:06.349662 table@remove removed @136
+13:50:06.126012 memdb@flush N·26 S·1KiB
+13:50:06.236047 memdb@flush created L0@141 N·26 S·459B "\x04de..can,v2042":"\nla..ime,v2017"
+13:50:06.236196 version@stat F·[1 1] S·21KiB[459B 20KiB] Sc·[0.25 0.00]
+13:50:06.297397 memdb@flush committed F·1 T·123.21177ms
+13:50:06.297576 journal@remove removed @137
+13:50:06.297642 table@compaction range L-1 "":""
+13:50:06.297714 table@compaction L0·1 -> L1·1 S·21KiB Q·2042
+13:50:06.364076 table@build created L1@142 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+13:50:06.364200 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+13:50:06.427364 table@compaction committed F-1 S-463B Ke·0 D·26 T·110.806592ms
+13:50:06.427634 table@remove removed @141
+13:50:06.427759 table@remove removed @139
+=============== Jul 20, 2021 (-03) ===============
+02:50:06.066670 memdb@flush N·27 S·1KiB
+02:50:06.227511 memdb@flush created L0@144 N·27 S·477B "\x04de..can,v2068":"\nla..ime,v2043"
+02:50:06.227786 version@stat F·[1 1] S·21KiB[477B 20KiB] Sc·[0.25 0.00]
+02:50:06.287773 memdb@flush committed F·1 T·177.149656ms
+02:50:06.287937 journal@remove removed @140
+02:50:06.288002 table@compaction range L-1 "":""
+02:50:06.288055 table@compaction L0·1 -> L1·1 S·21KiB Q·2069
+02:50:06.343035 table@build created L1@145 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+02:50:06.343163 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+02:50:06.387621 table@compaction committed F-1 S-472B Ke·0 D·27 T·99.517564ms
+02:50:06.387836 table@remove removed @144
+02:50:06.387934 table@remove removed @142
+15:50:06.108114 memdb@flush N·25 S·1019B
+15:50:06.220800 memdb@flush created L0@147 N·25 S·452B "\x04de..can,v2094":"\nla..ime,v2070"
+15:50:06.220939 version@stat F·[1 1] S·21KiB[452B 20KiB] Sc·[0.25 0.00]
+15:50:06.290360 memdb@flush committed F·1 T·156.137875ms
+15:50:06.290622 journal@remove removed @143
+15:50:06.290711 table@compaction range L-1 "":""
+15:50:06.290774 table@compaction L0·1 -> L1·1 S·21KiB Q·2094
+15:50:06.346109 table@build created L1@148 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+15:50:06.346289 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+15:50:06.390586 table@compaction committed F-1 S-451B Ke·0 D·25 T·99.679096ms
+15:50:06.390986 table@remove removed @147
+15:50:06.391174 table@remove removed @145
+=============== Jul 21, 2021 (-03) ===============
+04:50:06.050134 memdb@flush N·26 S·1KiB
+04:50:06.132142 memdb@flush created L0@150 N·26 S·461B "\x04de..can,v2119":"\nla..ime,v2095"
+04:50:06.132264 version@stat F·[1 1] S·21KiB[461B 20KiB] Sc·[0.25 0.00]
+04:50:06.187589 memdb@flush committed F·1 T·97.461348ms
+04:50:06.187739 journal@remove removed @146
+04:50:06.187803 table@compaction range L-1 "":""
+04:50:06.187856 table@compaction L0·1 -> L1·1 S·21KiB Q·2120
+04:50:06.243431 table@build created L1@151 N·254 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+04:50:06.243552 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+04:50:06.287772 table@compaction committed F-1 S-461B Ke·0 D·26 T·99.870551ms
+04:50:06.288008 table@remove removed @150
+04:50:06.288129 table@remove removed @148
+10:26:57.613500 db@close closing
+10:26:57.808855 db@close done T·195.361097ms
+=============== Aug 19, 2021 (-03) ===============
+18:42:43.779956 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:42:43.847710 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+18:42:43.847794 db@open opening
+18:42:43.847905 journal@recovery F·1
+18:42:43.856539 journal@recovery recovering @149
+18:42:43.948162 memdb@flush created L0@152 N·13 S·319B "\x04de..can,v2132":"\nla..ime,v2121"
+18:42:43.949022 version@stat F·[1 1] S·21KiB[319B 20KiB] Sc·[0.25 0.00]
+18:42:44.098224 db@janitor F·4 G·0
+18:42:44.098299 db@open done T·250.465437ms
+18:42:45.530090 memdb@flush N·10 S·262B
+18:42:45.588466 memdb@flush created L0@156 N·10 S·243B "\b\x00\x00..\x00\x00\x00,d2135":"\ndb..ion,v2139"
+18:42:45.589239 version@stat F·[2 1] S·21KiB[562B 20KiB] Sc·[0.50 0.00]
+18:42:45.644053 memdb@flush committed F·1 T·113.78122ms
+18:42:45.644214 journal@remove removed @153
+18:42:45.644254 table@compaction range L-1 "":""
+18:42:45.644284 table@compaction L0·2 -> L1·1 S·21KiB Q·2144
+18:42:45.699520 table@build created L1@157 N·250 S·20KiB "\x00\x00\x00..pdf,v1242":"\x0e\x00\x00..jpg,v150"
+18:42:45.699636 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+18:42:45.743672 table@compaction committed F-2 S-629B Ke·0 D·27 T·99.328857ms
+18:42:45.743852 table@remove removed @156
+18:42:45.743974 table@remove removed @151
+=============== Aug 24, 2021 (-03) ===============
+12:50:37.849493 db@close closing
+12:50:38.236317 db@close done T·477.27914ms
+=============== Aug 26, 2021 (-03) ===============
+15:14:41.889610 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:14:41.952728 version@stat F·[0 1] S·20KiB[0B 20KiB] Sc·[0.00 0.00]
+15:14:41.952821 db@open opening
+15:14:41.952989 journal@recovery F·1
+15:14:41.955274 journal@recovery recovering @155
+15:14:42.086390 memdb@flush created L0@158 N·683 S·24KiB "\x00\x00\x00..jpg,v2382":"\x0e\x00\x00..jpg,v2481"
+15:14:42.089544 version@stat F·[1 1] S·45KiB[24KiB 20KiB] Sc·[0.25 0.00]
+15:14:42.198943 db@janitor F·5 G·1
+15:14:42.198988 db@janitor removing table-152
+15:14:42.199120 db@open done T·246.279508ms
+15:43:59.578149 table@compaction L0·1 -> L1·1 S·45KiB Q·3198
+15:43:59.628794 table@build created L1@161 N·472 S·39KiB "\x00\x00\x00..jpg,v2382":"\x0e\x00\x00..jpg,v2481"
+15:43:59.628903 version@stat F·[0 1] S·39KiB[0B 39KiB] Sc·[0.00 0.00]
+15:43:59.674965 table@compaction committed F-1 S-5KiB Ke·0 D·461 T·96.652096ms
+15:43:59.675570 table@remove removed @157
+=============== Aug 27, 2021 (-03) ===============
+02:12:49.057551 db@close closing
+02:12:49.756912 db@close done T·699.320814ms
+=============== Sep 12, 2021 (-03) ===============
+15:09:41.175468 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:09:41.243008 version@stat F·[0 1] S·39KiB[0B 39KiB] Sc·[0.00 0.00]
+15:09:41.243116 db@open opening
+15:09:41.243385 journal@recovery F·1
+15:09:41.245848 journal@recovery recovering @159
+15:09:41.394660 memdb@flush created L0@162 N·509 S·31KiB "\x00\x00\x00..jpg,v3265":"\x0e\x00\x00..rar,v3159"
+15:09:41.395426 version@stat F·[1 1] S·70KiB[31KiB 39KiB] Sc·[0.25 0.00]
+15:09:41.560740 db@janitor F·5 G·1
+15:09:41.560778 db@janitor removing table-158
+15:09:41.560907 db@open done T·317.76025ms
+15:09:45.998070 table@compaction L0·1 -> L1·1 S·70KiB Q·3384
+15:09:46.178246 table@build created L1@165 N·802 S·68KiB "\x00\x00\x00..jpg,v2382":"\x0e\x00\x00..rar,v3159"
+15:09:46.178311 version@stat F·[0 1] S·68KiB[0B 68KiB] Sc·[0.00 0.00]
+15:09:46.456335 table@compaction committed F-1 S-1KiB Ke·0 D·179 T·458.211832ms
+15:09:46.456444 table@remove removed @161
+=============== Sep 15, 2021 (-03) ===============
+19:22:32.303720 db@close closing
+19:22:32.415378 db@close done T·409.110119ms

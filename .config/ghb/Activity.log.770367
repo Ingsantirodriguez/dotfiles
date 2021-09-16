@@ -1,0 +1,47 @@
+[10:41:17] gtkgui: HandBrake 1.3.3 (2021031800) - Linux x86_64 - https://handbrake.fr
+[10:41:17] hb_display_init: attempting VA driver 'iHD'
+Cannot load libnvidia-encode.so.1
+[10:41:17] hb_init: starting libhb thread
+[10:41:17] hb_init: starting libhb thread
+[10:41:17] hb_init: starting libhb thread
+[10:41:19] CPU: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz
+[10:41:19]  - Intel microarchitecture Skylake
+[10:41:19]  - logical processor count: 4
+[10:41:19] Intel Quick Sync Video support: yes
+[10:41:19]  - Intel Media SDK hardware: API 1.34 (minimum: 1.3)
+[10:41:19]  - H.264 encoder: yes
+[10:41:19]     - preferred implementation: hardware (any) via ANY
+[10:41:19]     - capabilities (hardware):  breftype icq+la+i+downs vsinfo opt1 opt2+mbbrc+extbrc+trellis+ib_adapt+nmpslice
+[10:41:19]  - H.265 encoder: yes (8bit: yes, 10bit: no)
+[10:41:19]     - preferred implementation: hardware (any) via ANY
+[10:41:19]     - capabilities (hardware):  bpyramid icq vsinfo opt1
+[10:41:19] hb_scan: path=/home/srodriguez/2021-05-14 10-40-29.mkv, title_index=0
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /home/srodriguez/2021-05-14 10-40-29.mkv
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+bluray.c:2585: nav_get_title_list(/home/srodriguez/2021-05-14 10-40-29.mkv/) failed
+[10:41:19] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.1
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[10:41:19] dvd: not a dvd - trying as a stream/file instead
+Input #0, matroska,webm, from '/home/srodriguez/2021-05-14 10-40-29.mkv':
+  Metadata:
+    ENCODER         : Lavf58.76.100
+  Duration: 00:00:02.17, start: 0.000000, bitrate: 427 kb/s
+    Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 852x480, 30 fps, 30 tbr, 1k tbn, 60 tbc (default)
+    Metadata:
+      DURATION        : 00:00:02.166000000
+    Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      title           : simple_aac_recording
+      DURATION        : 00:00:02.048000000
+[10:41:19] scan: decoding previews for title 1
+[10:41:19] scan: audio 0x1: aac, rate=48000Hz, bitrate=1 Unknown (AAC LC) (2.0 ch)
+[10:41:19] scan: 10 previews, 852x480, 30,000 fps, autocrop = 0/0/0/0, aspect 1,77:1, PAR 1:1
+[10:41:19] scan: supported video decoders: avcodec qsv
+[10:41:19] Title is likely interlaced or telecined (10 out of 10 previews). You should do something about that.
+[10:41:20] libhb: scan thread found 1 valid title(s)

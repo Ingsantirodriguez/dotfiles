@@ -1,0 +1,127 @@
+Date: Sat Nov 28 12:04:49 2020
+Error: signal 11
+[bt]: (0) /tmp/.mount_xournavaKG3H/usr/bin/xournalpp() [0x5c04c8]
+[bt]: (1) /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f76450ab210]
+[bt]: (2) /lib/x86_64-linux-gnu/libc.so.6(+0x18e7b8) [0x7f76451f37b8]
+[bt]: (3) /tmp/.mount_xournavaKG3H/usr/lib/libpng12.so.0(+0x1baa5) [0x7f76421e9aa5]
+[bt]: (4) /tmp/.mount_xournavaKG3H/usr/lib/libpng12.so.0(+0x1bf5c) [0x7f76421e9f5c]
+[bt]: (5) /tmp/.mount_xournavaKG3H/usr/lib/libpng12.so.0(+0x1c151) [0x7f76421ea151]
+[bt]: (6) /tmp/.mount_xournavaKG3H/usr/lib/libpng12.so.0(png_process_data+0x3b) [0x7f76421ea2cb]
+[bt]: (7) /tmp/.mount_xournavaKG3H/usr/lib/gdk-pixbuf-2.0/loaders/libpixbufloader-png.so(+0x2b99) [0x7f762a5b0b99]
+[bt]: (8) /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(+0x10281) [0x7f764695f281]
+[bt]: (9) /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(gdk_pixbuf_loader_close+0x175) [0x7f764695fb15]
+[bt]: (10) /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(+0xd233) [0x7f764695c233]
+[bt]: (11) /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(gdk_pixbuf_new_from_stream+0x31) [0x7f764695d2c1]
+[bt]: (12) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1dd994) [0x7f76471b5994]
+[bt]: (13) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_icon_info_load_icon+0x68) [0x7f76471b9198]
+[bt]: (14) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_icon_info_load_symbolic_for_context+0x183) [0x7f76471b9e83]
+[bt]: (15) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1da883) [0x7f76471b2883]
+[bt]: (16) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1dabbb) [0x7f76471b2bbb]
+[bt]: (17) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1edcf2) [0x7f76471c5cf2]
+[bt]: (18) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1eded7) [0x7f76471c5ed7]
+[bt]: (19) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a871b) [0x7f764728071b]
+[bt]: (20) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f76472809af]
+[bt]: (21) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f7647280c76]
+[bt]: (22) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x120186) [0x7f76470f8186]
+[bt]: (23) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1201fb) [0x7f76470f81fb]
+[bt]: (24) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a871b) [0x7f764728071b]
+[bt]: (25) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f76472809af]
+[bt]: (26) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height+0x8a) [0x7f764728008a]
+[bt]: (27) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a87d4) [0x7f76472807d4]
+[bt]: (28) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f76472809af]
+[bt]: (29) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f7647280c76]
+[bt]: (30) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a8d37) [0x7f7647280d37]
+[bt]: (31) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x301d94) [0x7f76472d9d94]
+[bt]: (32) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x3020b9) [0x7f76472da0b9]
+[bt]: (33) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a87d4) [0x7f76472807d4]
+[bt]: (34) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f76472809af]
+[bt]: (35) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f7647280c76]
+[bt]: (36) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x11348d) [0x7f76470eb48d]
+[bt]: (37) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a871b) [0x7f764728071b]
+[bt]: (38) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f76472809af]
+[bt]: (39) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height+0x8a) [0x7f764728008a]
+[bt]: (40) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x10f8a1) [0x7f76470e78a1]
+[bt]: (41) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a87d4) [0x7f76472807d4]
+[bt]: (42) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f76472809af]
+[bt]: (43) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height+0x8a) [0x7f764728008a]
+[bt]: (44) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x368342) [0x7f7647340342]
+[bt]: (45) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a87d4) [0x7f76472807d4]
+[bt]: (46) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f76472809af]
+[bt]: (47) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f7647280c76]
+[bt]: (48) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a8d37) [0x7f7647280d37]
+[bt]: (49) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x369d93) [0x7f7647341d93]
+[bt]: (50) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x36cb00) [0x7f7647344b00]
+[bt]: (51) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_closure_invoke+0x1b2) [0x7f7646722802]
+[bt]: (52) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(+0x28962) [0x7f7646736962]
+[bt]: (53) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_signal_emit_valist+0x10ae) [0x7f7646741b9e]
+[bt]: (54) /lib/x86_64-linux-gnu/libgobject-2.0.so.0(g_signal_emit+0x93) [0x7f76467420d3]
+[bt]: (55) /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_show+0xa5) [0x7f7647334715]
+[bt]: (56) /tmp/.mount_xournavaKG3H/usr/bin/xournalpp(_ZN11XournalMain3runEiPPc+0x85e) [0x4adb4e]
+[bt]: (57) /tmp/.mount_xournavaKG3H/usr/bin/xournalpp(main+0x30) [0x4814f0]
+[bt]: (58) /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f764508c0b3]
+[bt]: (59) /tmp/.mount_xournavaKG3H/usr/bin/xournalpp(_start+0x29) [0x4816a9]
+
+
+Try to get a better stracktrace...
+[bt] #1 /tmp/.mount_xournavaKG3H/usr/bin/xournalpp() [0x5c089d]
+/home/vsts/work/1/s/build/../src/util/CrashHandlerUnix.h:102
+[bt] #2 /lib/x86_64-linux-gnu/libc.so.6(+0x46210) [0x7f76450ab210]
+??:0
+[bt] #3 /lib/x86_64-linux-gnu/libc.so.6(+0x18e7b8) [0x7f76451f37b8]
+??:0
+[bt] #4 /tmp/.mount_xournavaKG3H/usr/lib/libpng12.so.0(+0x1baa5) [0x7f76421e9aa5]
+??:0
+[bt] #5 /tmp/.mount_xournavaKG3H/usr/lib/libpng12.so.0(+0x1bf5c) [0x7f76421e9f5c]
+??:0
+[bt] #6 /tmp/.mount_xournavaKG3H/usr/lib/libpng12.so.0(+0x1c151) [0x7f76421ea151]
+??:0
+[bt] #7 /tmp/.mount_xournavaKG3H/usr/lib/libpng12.so.0(png_process_data+0x3b) [0x7f76421ea2cb]
+??:0
+[bt] #8 /tmp/.mount_xournavaKG3H/usr/lib/gdk-pixbuf-2.0/loaders/libpixbufloader-png.so(+0x2b99) [0x7f762a5b0b99]
+??:0
+[bt] #9 /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(+0x10281) [0x7f764695f281]
+??:0
+[bt] #10 /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(gdk_pixbuf_loader_close+0x175) [0x7f764695fb15]
+??:0
+[bt] #11 /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(+0xd233) [0x7f764695c233]
+??:0
+[bt] #12 /lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0(gdk_pixbuf_new_from_stream+0x31) [0x7f764695d2c1]
+??:0
+[bt] #13 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1dd994) [0x7f76471b5994]
+??:0
+[bt] #14 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_icon_info_load_icon+0x68) [0x7f76471b9198]
+??:0
+[bt] #15 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_icon_info_load_symbolic_for_context+0x183) [0x7f76471b9e83]
+??:0
+[bt] #16 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1da883) [0x7f76471b2883]
+??:0
+[bt] #17 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1dabbb) [0x7f76471b2bbb]
+??:0
+[bt] #18 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1edcf2) [0x7f76471c5cf2]
+??:0
+[bt] #19 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1eded7) [0x7f76471c5ed7]
+??:0
+[bt] #20 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a871b) [0x7f764728071b]
+??:0
+[bt] #21 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f76472809af]
+??:0
+[bt] #22 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f7647280c76]
+??:0
+[bt] #23 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x120186) [0x7f76470f8186]
+??:0
+[bt] #24 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x1201fb) [0x7f76470f81fb]
+??:0
+[bt] #25 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a871b) [0x7f764728071b]
+??:0
+[bt] #26 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f76472809af]
+??:0
+[bt] #27 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height+0x8a) [0x7f764728008a]
+??:0
+[bt] #28 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a87d4) [0x7f76472807d4]
+??:0
+[bt] #29 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a89af) [0x7f76472809af]
+??:0
+[bt] #30 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(gtk_widget_get_preferred_height_and_baseline_for_width+0xa6) [0x7f7647280c76]
+??:0
+[bt] #31 /tmp/.mount_xournavaKG3H/usr/lib/libgtk-3.so.0(+0x2a8d37) [0x7f7647280d37]
+??:0
